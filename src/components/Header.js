@@ -5,7 +5,7 @@ class Header extends React.Component {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
+                    <span className="icon major fa-code"></span>
                     <h1>Hello World, I'm <strong>Val</strong>.</h1>
                     <p>Web Developer</p>
                     <ul className="actions">
