@@ -1,17 +1,16 @@
-import React from "react";
-import { graphql } from "gatsby";
-import SEO from "../components/SEO";
-import Page from "../components/Page";
-import List from "../components/List";
-import Tabs from "../components/Tabs";
-import Slider from "../components/Slider";
-import { withStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import { Alien } from "mdi-material-ui";
-import { Robot } from "mdi-material-ui";
-import logo from "../../images/logo.png";
-import withRoot from "../utils/withRoot";
-import Avatar from "@material-ui/core/Avatar";
+import React from 'react'
+import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
+import Page from '../components/Page'
+import List from '../components/List'
+import Tabs from '../components/Tabs'
+import Slider from '../components/Slider'
+import { withStyles } from '@material-ui/core/styles'
+import Typography from '@material-ui/core/Typography'
+import { Alien } from 'mdi-material-ui'
+import { Robot } from 'mdi-material-ui'
+import logo from '../../images/logo.png'
+import withRoot from '../utils/withRoot'
 
 const styles = theme => ({
     angles: {
@@ -19,22 +18,22 @@ const styles = theme => ({
       opacity: 0.5,
     },
     avatar: {
-      width: "160px",
-      height: "160px",
-      marginBottom: "40px",
+      width: '160px',
+      height: '160px',
+      marginBottom: '40px',
       backgroundColor: theme.palette.primary.light,
     },
     logo: {
-      width: "100px",
-      height: "100px",
-      border: "0",
+      width: '100px',
+      height: '100px',
+      border: '0',
     },
     text: {
-      textAlign: "center",
+      textAlign: 'center',
     },
     tabs: {
-      marginTop: "40px",
-      marginBottom: "40px",
+      marginTop: '40px',
+      marginBottom: '40px',
     },
   }),
   Home = props => {
@@ -55,7 +54,7 @@ const styles = theme => ({
           },
         },
       },
-    } = props;
+    } = props
     return (
       <Page>
         <SEO title={defaultTitle}>
@@ -64,7 +63,6 @@ const styles = theme => ({
         </SEO>
         <Slider />
         <div className={classes.text}>
-
           <Typography
             paragraph
             color="primary"
@@ -72,7 +70,7 @@ const styles = theme => ({
             variant="h1"
             component="span"
           >
-            <span className={classes.angles}>&lt;</span> hi{" "}
+            <span className={classes.angles}>&lt;</span> hi{' '}
             <span className={classes.angles}>&gt;</span>
           </Typography>
           <Typography paragraph gutterBottom variant="body1" component="span">
@@ -85,8 +83,8 @@ const styles = theme => ({
         <div className={props.classes.tabs}>
           <Tabs
             items={[
-              ["Our Products", <Robot />, <List items={products} />],
-              ["Our Services", <Alien />, <List items={services} />],
+              ['Our Products', <Robot />, <List items={products} />],
+              ['Our Services', <Alien />, <List items={services} />],
             ]}
           />
         </div>
@@ -101,13 +99,13 @@ const styles = theme => ({
             variant="h5"
             component="span"
           >
-            <span className={classes.angles}>&lt;</span> {email}{" "}
+            <span className={classes.angles}>&lt;</span> {email}{' '}
             <span className={classes.angles}>&gt;</span>
           </Typography>
         </div>
       </Page>
-    );
-  };
+    )
+  }
 
 export const query = graphql`
   query Name {
@@ -152,6 +150,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default withRoot(withStyles(styles, { withTheme: true })(Home));
+export default withRoot(withStyles(styles, { withTheme: true })(Home))

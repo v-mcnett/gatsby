@@ -1,23 +1,26 @@
-import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import MainMenu from "./MainMenu";
-import Grid from "@material-ui/core/Grid";
-import { withStyles } from "@material-ui/core/styles";
+import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
+import MainMenu from './MainMenu'
+import Grid from '@material-ui/core/Grid'
+import { withStyles } from '@material-ui/core/styles'
+import "./navigation.css"
+import "./cr-style.css"
+
 
 const styles = theme => ({
   topper: {
-    backgroundColor: "#eee",
+    backgroundColor: '#eee',
   },
   root: {
-    maxWidth: "1168px",
-    marginTop: "94px",
+    maxWidth: '1168px',
+    marginTop: '94px',
   },
-});
+})
 
 class Page extends React.Component {
   render() {
-    const { children, classes } = this.props;
+    const { children, classes } = this.props
     return (
       <div className={classes.topper}>
         <Grid container justify="center" alignItems="stretch">
@@ -29,8 +32,8 @@ class Page extends React.Component {
           </Grid>
         </Grid>
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(styles)(Page);
+export default withStyles(styles)(Page)
