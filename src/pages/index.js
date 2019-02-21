@@ -16,94 +16,33 @@ class Homepage extends React.Component {
             <Layout>
                 <Helmet title={siteTitle} />
 
-                <section id="one" className="main style1">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
-                            <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
-                            </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
-                        </div>
-                        <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="two" className="main style2">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
-                            </ul>
-                        </div>
-                        <div className="col-6">
-                            <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
-                            </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="three" className="main style1 special">
-                    <div className="grid-wrapper">
-                        <div className="col-12">
-                            <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
-                            </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
-                        </div>
-
-                        <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section id="four" className="main style2 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
-                        </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
-                    </div>
-                </section>
+                <section id="media_gallery-5" className="content-widget widget_media_gallery"><h2 className="widget-title content-widget-title">WE BRING THE FUN</h2><div id="gallery-1" className="gallery galleryid-6 gallery-columns-4 gallery-size-large"><figure className="gallery-item">
+			<div className="gallery-icon landscape">
+				<a href="http://emeraldcityphotobooth.com/photos/smith-429/"><img width="660" height="440" src="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-569" srcset="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=5760 5760w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=300%2C200 300w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=768%2C512 768w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=1024%2C683 1024w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=1320 1320w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
+			</div>
+				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-569">
+				Weddings, Anniversaries
+				</figcaption></figure><figure className="gallery-item">
+			<div className="gallery-icon landscape">
+				<a href="http://emeraldcityphotobooth.com/photos/20131219210957_p0/"><img width="573" height="387" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?fit=573%2C387" className="attachment-large size-large" alt="" aria-describedby="gallery-1-442" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?w=573 573w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?resize=300%2C203 300w" sizes="(max-width: 573px) 100vw, 573px" /></a>
+			</div>
+				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-442">
+				Corporate Events, Holiday Parties
+				</figcaption></figure><figure className="gallery-item">
+			<div className="gallery-icon landscape">
+				<a href="http://emeraldcityphotobooth.com/photos/phiandjasonwedding-150/"><img width="660" height="440" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-564" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=3500 3500w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=300%2C200 300w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=768%2C512 768w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=1024%2C683 1024w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=1320 1320w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
+			</div>
+				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-564">
+				Bar and Bat Mitzvahs, Sweet 16s, Quinceaneras
+				</figcaption></figure><figure className="gallery-item">
+			<div className="gallery-icon landscape">
+				<a href="http://emeraldcityphotobooth.com/photos/view-more-http-jphinneyphotography-pass-us-cookwedding-5/"><img width="660" height="440" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-537" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=4000 4000w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=300%2C200 300w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=768%2C512 768w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=1024%2C682 1024w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=1320 1320w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
+			</div>
+				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-537">
+				Birthdays, Family Reunions 
+				</figcaption></figure>
+		</div>
+</section>
             </Layout>
         );
     }
