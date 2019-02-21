@@ -1,51 +1,157 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import SEO from "../components/SEO";
+import Page from "../components/Page";
+import List from "../components/List";
+import Tabs from "../components/Tabs";
+import Slider from "../components/Slider";
+import { withStyles } from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
+import { Alien } from "mdi-material-ui";
+import { Robot } from "mdi-material-ui";
+import logo from "../../images/logo.png";
+import withRoot from "../utils/withRoot";
+import Avatar from "@material-ui/core/Avatar";
 
-import Layout from '../components/layout';
+const styles = theme => ({
+    angles: {
+      color: theme.palette.secondary.light,
+      opacity: 0.5,
+    },
+    avatar: {
+      width: "160px",
+      height: "160px",
+      marginBottom: "40px",
+      backgroundColor: theme.palette.primary.light,
+    },
+    logo: {
+      width: "100px",
+      height: "100px",
+      border: "0",
+    },
+    text: {
+      textAlign: "center",
+    },
+    tabs: {
+      marginTop: "40px",
+      marginBottom: "40px",
+    },
+  }),
+  Home = props => {
+    const {
+      classes,
+      data: {
+        Products: { edges: products },
+        Services: { edges: services },
+        Basic: {
+          siteMetadata: {
+            domain,
+            company,
+            defaultTitle,
+            preamble,
+            postamble,
+            defaultDescription,
+            contact: { email },
+          },
+        },
+      },
+    } = props;
+    return (
+      <Page>
+        <SEO title={defaultTitle}>
+          <meta name="description" content={defaultDescription} />
+          <link rel="canonical" href={domain} />
+        </SEO>
+        <Slider />
+        <div className={classes.text}>
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+          <Typography
+            paragraph
+            color="primary"
+            gutterBottom
+            variant="h1"
+            component="span"
+          >
+            <span className={classes.angles}>&lt;</span> hi{" "}
+            <span className={classes.angles}>&gt;</span>
+          </Typography>
+          <Typography paragraph gutterBottom variant="body1" component="span">
+            {preamble}
+          </Typography>
+          <Typography paragraph gutterBottom variant="body1" component="span">
+            {defaultDescription}
+          </Typography>
+        </div>
+        <div className={props.classes.tabs}>
+          <Tabs
+            items={[
+              ["Our Products", <Robot />, <List items={products} />],
+              ["Our Services", <Alien />, <List items={services} />],
+            ]}
+          />
+        </div>
+        <div className={classes.text}>
+          <Typography paragraph gutterBottom variant="body1" component="span">
+            {postamble}
+          </Typography>
+          <Typography
+            paragraph
+            color="primary"
+            gutterBottom
+            variant="h5"
+            component="span"
+          >
+            <span className={classes.angles}>&lt;</span> {email}{" "}
+            <span className={classes.angles}>&gt;</span>
+          </Typography>
+        </div>
+      </Page>
+    );
+  };
 
-class Homepage extends React.Component {
-    render() {
-        const siteTitle = "Web Development";
-
-        return (
-            <Layout>
-                <Helmet title={siteTitle} />
-
-                <section id="media_gallery-5" className="content-widget widget_media_gallery"><h2 className="widget-title content-widget-title">WE BRING THE FUN</h2><div id="gallery-1" className="gallery galleryid-6 gallery-columns-4 gallery-size-large"><figure className="gallery-item">
-			<div className="gallery-icon landscape">
-				<a href="http://emeraldcityphotobooth.com/photos/smith-429/"><img width="660" height="440" src="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-569" srcset="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=5760 5760w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=300%2C200 300w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=768%2C512 768w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?resize=1024%2C683 1024w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=1320 1320w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Smith-429.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
-			</div>
-				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-569">
-				Weddings, Anniversaries
-				</figcaption></figure><figure className="gallery-item">
-			<div className="gallery-icon landscape">
-				<a href="http://emeraldcityphotobooth.com/photos/20131219210957_p0/"><img width="573" height="387" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?fit=573%2C387" className="attachment-large size-large" alt="" aria-describedby="gallery-1-442" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?w=573 573w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/20131219210957_P0-e1546152595825.jpg?resize=300%2C203 300w" sizes="(max-width: 573px) 100vw, 573px" /></a>
-			</div>
-				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-442">
-				Corporate Events, Holiday Parties
-				</figcaption></figure><figure className="gallery-item">
-			<div className="gallery-icon landscape">
-				<a href="http://emeraldcityphotobooth.com/photos/phiandjasonwedding-150/"><img width="660" height="440" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-564" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=3500 3500w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=300%2C200 300w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=768%2C512 768w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?resize=1024%2C683 1024w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=1320 1320w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/PhiandJasonWedding-150.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
-			</div>
-				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-564">
-				Bar and Bat Mitzvahs, Sweet 16s, Quinceaneras
-				</figcaption></figure><figure className="gallery-item">
-			<div className="gallery-icon landscape">
-				<a href="http://emeraldcityphotobooth.com/photos/view-more-http-jphinneyphotography-pass-us-cookwedding-5/"><img width="660" height="440" src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?fit=660%2C440" className="attachment-large size-large" alt="" aria-describedby="gallery-1-537" srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=4000 4000w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=300%2C200 300w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=768%2C512 768w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?resize=1024%2C682 1024w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=1320 1320w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/Cook-Wedding-Reception-0079.jpg?w=1980 1980w" sizes="(max-width: 660px) 100vw, 660px" /></a>
-			</div>
-				<figcaption className="wp-caption-text gallery-caption" id="gallery-1-537">
-				Birthdays, Family Reunions 
-				</figcaption></figure>
-		</div>
-</section>
-            </Layout>
-        );
+export const query = graphql`
+  query Name {
+    Basic: site {
+      siteMetadata {
+        domain
+        company
+        defaultTitle
+        preamble
+        defaultDescription
+        postamble
+        contact {
+          email
+        }
+      }
     }
-}
+    Products: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/products/" } }
+    ) {
+      edges {
+        node {
+          html
+          frontmatter {
+            title
+            siteLink
+            imageLink
+          }
+        }
+      }
+    }
+    Services: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/services/" } }
+    ) {
+      edges {
+        node {
+          html
+          frontmatter {
+            title
+            imageLink
+          }
+        }
+      }
+    }
+  }
+`;
 
-export default Homepage;
+export default withRoot(withStyles(styles, { withTheme: true })(Home));

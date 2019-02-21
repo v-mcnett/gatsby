@@ -1,24 +1,41 @@
 module.exports = {
+  // Customize me!
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    company: "Emerald City Photo Booth",
+    domain: "https://emeraldcityphotobooth.com",
+    defaultTitle: "Emerald City Photo Booth",
+    preamble:
+      "friends, photos, fun",
+    defaultDescription:
+      "Emerald City Photo Booth is proud to offer the most AMAZING photo booths for any event! We travel all over Washington state bringing our innovative photo booths to weddings, anniversaries, proms, graduations, corporate events, birthday parties and more, for maximized FUN!",
+    postamble: "Think we can help your project? We'd love to hear from you:",
+    contact: {
+      email: "cmcnett@emeraldcityphotobooth.com",
+    },
+    menuLinks: [],
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    "gatsby-transformer-remark",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-remove-serviceworker",
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        path: `${__dirname}/src/pages`,
+        name: "pages",
       },
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./images/logo.png",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-20215326-1",
+      },
+    },
   ],
-}
+};
