@@ -4,17 +4,15 @@ import Header from './Header'
 import MainMenu from './MainMenu'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
-import "./navigation.css"
-import "./cr-style.css"
+import "./dist/main.min.css"
+
 
 
 const styles = theme => ({
   topper: {
-    backgroundColor: '#eee',
+    backgroundColor: '#fff',
   },
   root: {
-    maxWidth: '1168px',
-    marginTop: '94px',
   },
 })
 

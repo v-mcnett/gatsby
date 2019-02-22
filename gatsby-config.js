@@ -15,6 +15,10 @@ module.exports = {
     menuLinks: [],
   },
   plugins: [
+    "gatsby-plugin-less",
+    "gatsby-image",
+    "gatsby-transformer-sharp", 
+    "gatsby-plugin-sharp",
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-remove-serviceworker",
