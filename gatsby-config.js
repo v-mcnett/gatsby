@@ -8,7 +8,7 @@ module.exports = {
       "friends, photos, fun",
     defaultDescription:
       "Emerald City Photo Booth is proud to offer the most AMAZING photo booths for any event! We travel all over Washington state bringing our innovative photo booths to weddings, anniversaries, proms, graduations, corporate events, birthday parties and more, for maximized FUN!",
-    postamble: "Think we can help your project? We'd love to hear from you:",
+    postamble: "Ready to book a booth for your event? We'd love to hear from you:",
     contact: {
       email: "cmcnett@emeraldcityphotobooth.com",
     },

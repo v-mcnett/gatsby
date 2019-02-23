@@ -97,9 +97,6 @@ const styles = theme => ({
           />
         </div>
         <div className={classes.text}>
-          <Typography paragraph gutterBottom variant="body1" component="span">
-            {postamble}
-          </Typography>
           <Typography
             paragraph
             color="primary"
