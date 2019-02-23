@@ -7,7 +7,7 @@ class Packages extends React.Component {
   render() {
     return (
       <Page title="Packages">
-      <Slider />
+ 
         <div class="page-image-header">
           <div
             class="page-image-header-background"
