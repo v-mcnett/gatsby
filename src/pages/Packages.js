@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Page from '../components/Page'
 import Typography from '@material-ui/core/Typography'
 import withRoot from '../utils/withRoot'
@@ -7,17 +9,8 @@ class Packages extends React.Component {
   render() {
     return (
       <Page title="Packages">
- 
-        <div class="page-image-header">
-          <div
-            class="page-image-header-background"
-            style="background-image:url('https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/12/DSC_1714.jpg?fit=3620%2C2586');"
-          />
-        </div>
-
-        <h1 class="entry-title">Pricing</h1>
-
-        <div class="entry-content">
+        <h1 className="entry-title">Pricing</h1>
+        <div className="entry-content">
           <p>
             We have 3 simple all inclusive packages to choose from, but we will
             gladly work with you to find a package to suit you. Packages include
@@ -33,7 +26,7 @@ class Packages extends React.Component {
               </tr>
             </tbody>
             <tr>
-              <td class="description">Unlimited Pictures for 4 Hours</td>
+              <td className="description">Unlimited Pictures for 4 Hours</td>
               <td>
                 <img
                   src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
@@ -72,7 +65,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 The Prop Box
                 <br />
                 Includes goofy hats, silly sunglasses, fun boas and more!
@@ -115,7 +108,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">Set-up and Removal Included</td>
+              <td className="description">Set-up and Removal Included</td>
               <td>
                 <img
                   src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
@@ -154,7 +147,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 Professional and Entertaining Attendant
               </td>
               <td>
@@ -195,7 +188,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">Private Online Photo Gallery</td>
+              <td className="description">Private Online Photo Gallery</td>
               <td>
                 <img
                   src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
@@ -234,7 +227,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 Personalized Photo Strips
                 <br />
                 Couple’s names and wedding date
@@ -277,7 +270,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 Double Photo Strips in Black &amp; White or Color
               </td>
               <td valign="top">
@@ -318,7 +311,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">Customized Photo Booth Music</td>
+              <td className="description">Customized Photo Booth Music</td>
               <td>
                 <img
                   src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
@@ -357,7 +350,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">USB with All Photos</td>
+              <td className="description">USB with All Photos</td>
               <td>
                 <img
                   src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
@@ -396,7 +389,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">Customized Guest Book</td>
+              <td className="description">Customized Guest Book</td>
               <td />
               <td>
                 <img
@@ -424,7 +417,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 2nd Attendant
                 <br />
                 To help guests with your scrapbook
@@ -456,7 +449,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">Extra Set of Double Strips</td>
+              <td className="description">Extra Set of Double Strips</td>
               <td />
               <td />
               <td>
@@ -473,7 +466,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 Guest Option to Leave 30 Seconds of Video
               </td>
               <td />
@@ -492,7 +485,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">
+              <td className="description">
                 Guest Option to Print Their Favorite Picture in 4×6
               </td>
               <td />
@@ -511,7 +504,7 @@ class Packages extends React.Component {
               </td>
             </tr>
             <tr>
-              <td class="description">USB Drive of all Photos and Video</td>
+              <td className="description">USB Drive of all Photos and Video</td>
               <td />
               <td />
               <td>
@@ -528,56 +521,54 @@ class Packages extends React.Component {
               </td>
             </tr>
           </table>
-          <p>
-            Call us for pricing at <a href="tel:+13603670329">360-367-0329</a>.
-          </p>
-          <h2>Silver Deluxe Package</h2>
-          <p>
-            The Silver Package is a great way to set your wedding apart from
-            every other wedding your guests will attend this year. The photo
-            booth will be available for{' '}
-            <strong>unlimited use for 4 hours</strong>, including an attendant
-            to serve your guests and the <strong>Prop Box</strong>. The Prop Box
-            is sure to bring out the wild side in you and your guests crazy
-            hats, goofy glasses and so much more. Photo strips can be customized
-            with the bride and groom’s name, and wedding date, which make the
-            perfect wedding favor!
-          </p>
-          <h2>Gold Deluxe Package</h2>
-          <p>
-            The Gold Package includes everything the Silver Package does, in
-            addition to a copyright free CD of all photos from the event. It
-            also includes the creation of a{' '}
-            <strong>one-of-a-kind guest book</strong>. We provide the tools,
-            including the guest book, scissors, glue and a second attendant that
-            will help your guests use their second photo strip to create this
-            unique keepsake.
-          </p>
-          <h2>Platinum Deluxe Package</h2>
-          <p>
-            With everything listed above, plus <strong>video</strong>, the
-            Platinum Package is the ultimate in wedding fun! Your guests will
-            get an option for an extra strip of{' '}
-            <strong>double photo strips</strong>, which is wonderful for large
-            groups. Guests also have the option to print one 4×6 of their
-            favorite photo. You will get the guest book, as in the Gold Package.
-            But your guests will also get to leave you 30 seconds of video after
-            they take their pictures. You will leave the event with a USB
-            compiled with all the photos and all the video footage.
-          </p>
-          <p>
-            Call us for pricing at <a href="tel:+13603670329">360-367-0329</a>.
-          </p>
-          <p>
-            <strong>
-              Reserve your date, non refundable deposit of $295, applies to
-              purchase.{' '}
-              <a href="http://www.emeraldcityphotobooth.com/book-a-booth">
-                Book yours now!
-              </a>
-            </strong>
-          </p>
         </div>
+        <p>
+          Call us for pricing at <a href="tel:+13603670329">360-367-0329</a>.
+        </p>
+        <h2>Silver Deluxe Package</h2>
+        <p>
+          The Silver Package is a great way to set your wedding apart from every
+          other wedding your guests will attend this year. The photo booth will
+          be available for <strong>unlimited use for 4 hours</strong>, including
+          an attendant to serve your guests and the <strong>Prop Box</strong>.
+          The Prop Box is sure to bring out the wild side in you and your guests
+          crazy hats, goofy glasses and so much more. Photo strips can be
+          customized with the bride and groom’s name, and wedding date, which
+          make the perfect wedding favor!
+        </p>
+        <h2>Gold Deluxe Package</h2>
+        <p>
+          The Gold Package includes everything the Silver Package does, in
+          addition to a copyright free CD of all photos from the event. It also
+          includes the creation of a <strong>one-of-a-kind guest book</strong>.
+          We provide the tools, including the guest book, scissors, glue and a
+          second attendant that will help your guests use their second photo
+          strip to create this unique keepsake.
+        </p>
+        <h2>Platinum Deluxe Package</h2>
+        <p>
+          With everything listed above, plus <strong>video</strong>, the
+          Platinum Package is the ultimate in wedding fun! Your guests will get
+          an option for an extra strip of <strong>double photo strips</strong>,
+          which is wonderful for large groups. Guests also have the option to
+          print one 4×6 of their favorite photo. You will get the guest book, as
+          in the Gold Package. But your guests will also get to leave you 30
+          seconds of video after they take their pictures. You will leave the
+          event with a USB compiled with all the photos and all the video
+          footage.
+        </p>
+        <p>
+          Call us for pricing at <a href="tel:+13603670329">360-367-0329</a>.
+        </p>
+        <p>
+          <strong>
+            Reserve your date, non refundable deposit of $295, applies to
+            purchase.{' '}
+            <a href="http://www.emeraldcityphotobooth.com/book-a-booth">
+              Book yours now!
+            </a>
+          </strong>
+        </p>
       </Page>
     )
   }
