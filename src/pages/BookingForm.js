@@ -8,7 +8,14 @@ import withRoot from '../utils/withRoot'
 class BookingForm extends React.Component {
   render() {
     return (
-      <form name="contact" method="POST" data-netlify="true">
+      <form
+        name="contact_interop19"
+        method="post"
+        action="/success"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="bot-field" />
         <p>
           <label>
             Your Name: <input type="text" name="name" />
