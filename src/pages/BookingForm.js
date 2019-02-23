@@ -11,7 +11,7 @@ class BookingForm extends React.Component {
       <form
         name="contact_interop19"
         method="post"
-        action="/success"
+        action="/BookingFormSuccess"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
