@@ -5,6 +5,9 @@ import Page from '../components/Page'
 import List from '../components/List'
 import Tabs from '../components/Tabs'
 import Slider from '../components/Slider'
+import ReviewsSlider from '../components/ReviewsSlider'
+import BoothGalleries from '../components/BoothGalleries'
+import EventGalleries from '../components/EventGalleries'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import { Alien } from 'mdi-material-ui'
@@ -61,7 +64,12 @@ const styles = theme => ({
           <meta name="description" content={defaultDescription} />
           <link rel="canonical" href={domain} />
         </SEO>
+        
         <Slider />
+        <EventGalleries />
+        <ReviewsSlider />
+        <BoothGalleries />
+        
         <div className={classes.text}>
           <Typography
             paragraph

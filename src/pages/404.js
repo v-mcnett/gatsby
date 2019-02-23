@@ -12,7 +12,7 @@ class NotFoundPage extends React.Component {
           color="primary"
           gutterBottom
           variant="h3"
-          component="span"
+          component="div"
         >
           Hey! You just hit a page that doesn't exist.
         </Typography>

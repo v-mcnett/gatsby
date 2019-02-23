@@ -4,7 +4,7 @@ import Header from './Header'
 import MainMenu from './MainMenu'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
-import "./dist/main.min.css"
+import "./dist/main.css"
 
 
 
