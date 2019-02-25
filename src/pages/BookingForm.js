@@ -1,4 +1,5 @@
 import React from "react";
+import Page from '../components/Page'
 import { navigateTo } from "gatsby-link";
 
 function encode(data) {
@@ -34,7 +35,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
+      <Page title="Thank You">
         <h1>Contact</h1>
         <form
           name="contact"
@@ -74,7 +75,7 @@ export default class Contact extends React.Component {
             <button type="submit">Send</button>
           </p>
         </form>
-      </div>
+      </Page>
     );
   }
 }
