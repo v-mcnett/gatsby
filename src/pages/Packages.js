@@ -34,7 +34,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -46,7 +46,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -58,7 +58,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -77,7 +77,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -89,7 +89,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -101,7 +101,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -116,7 +116,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -128,7 +128,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -140,7 +140,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -157,7 +157,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -169,7 +169,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -181,7 +181,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -196,7 +196,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -208,7 +208,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -220,7 +220,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -239,7 +239,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -251,7 +251,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -263,7 +263,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -280,7 +280,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -292,7 +292,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -304,7 +304,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -319,7 +319,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -331,7 +331,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -343,7 +343,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -358,7 +358,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -370,7 +370,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -382,7 +382,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -398,7 +398,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -410,7 +410,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -430,7 +430,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -442,7 +442,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -459,7 +459,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -478,7 +478,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -497,7 +497,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />
@@ -514,7 +514,7 @@ class Packages extends React.Component {
                   width="24"
                   vspace="2"
                   height="20"
-                  srcset="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
+                  srcSet="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?zoom=2&amp;resize=24%2C20"
                   src-orig="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
                   scale="2"
                 />

@@ -104,7 +104,7 @@ class Header extends React.Component {
                   href="http://emeraldcityphotobooth.com/photos/"
                   className="custom-logo-link"
                   rel="home"
-                  itemprop="url"
+                  itemProp="url"
                 >
                   <img
                     width="380"
@@ -112,8 +112,8 @@ class Header extends React.Component {
                     src="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?fit=380%2C237"
                     className="custom-logo"
                     alt="Emerald City Photo Booth"
-                    itemprop="logo"
-                    srcset="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?w=380 380w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?resize=300%2C187 300w"
+                    itemProp="logo"
+                    srcSet="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?w=380 380w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?resize=300%2C187 300w"
                     sizes="(max-width: 380px) 100vw, 380px"
                   />
                 </a>

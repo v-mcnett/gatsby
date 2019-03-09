@@ -8,6 +8,7 @@ import Slider from '../components/Slider'
 import ReviewsSlider from '../components/ReviewsSlider'
 import BoothGalleries from '../components/BoothGalleries'
 import EventGalleries from '../components/EventGalleries'
+import Gallery from '../components/Gallery'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import { Alien } from 'mdi-material-ui'
@@ -56,6 +57,9 @@ const styles = theme => ({
             contact: { email },
           },
         },
+        InstagramPosts: {
+          edges: instaPost
+        }
       },
     } = props
     return (
@@ -108,6 +112,9 @@ const styles = theme => ({
             <span className={classes.angles}>&gt;</span>
           </Typography>
         </div>
+        <section>
+          <Gallery posts={instaPost}/>
+        </section>
       </Page>
     )
   }
@@ -154,7 +161,42 @@ export const query = graphql`
         }
       }
     }
+    InstagramPosts: allInstaNode (limit: 9, sort: {
+      fields: [timestamp]
+      order: DESC
+    }) {
+      edges {
+        node {
+          id
+          likes
+          comments
+          mediaType
+          preview
+          original
+          timestamp
+          caption
+          localFile{
+            childImageSharp {
+                fluid(maxHeight: 188, maxWidth: 188 quality: 50) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+          # Only available with the public api scraper
+          thumbnails {
+            src
+            config_width
+            config_height
+          }
+          dimensions {
+            height
+            width
+          }
+        }
+      }
+    }
   }
 `
+
 
 export default withRoot(withStyles(styles, { withTheme: true })(Home))

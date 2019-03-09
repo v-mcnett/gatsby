@@ -28,7 +28,7 @@ const Footer = props => {
                           src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/weddingwire.png?zoom=2&amp;resize=97%2C97"
                           className="attachment-thumbnail size-thumbnail"
                           alt="wedding wire couples' choice awards 2018"
-                          srcset="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/weddingwire.png?zoom=2&amp;resize=97%2C97"
+                          srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/weddingwire.png?zoom=2&amp;resize=97%2C97"
                           src-orig="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/weddingwire.png?resize=124%2C124"
                           scale="2"
                         />
@@ -44,7 +44,7 @@ const Footer = props => {
                           src="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/theknot-bestof.png?resize=150%2C150"
                           className="attachment-thumbnail size-thumbnail"
                           alt="the knot best of weddings: hall of fame"
-                          srcset="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/theknot-bestof.png?w=180 180w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/theknot-bestof.png?resize=150%2C150 150w"
+                          srcSet="https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/theknot-bestof.png?w=180 180w, https://i1.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/theknot-bestof.png?resize=150%2C150 150w"
                           sizes="(max-width: 150px) 100vw, 150px"
                         />
                       </a>
@@ -59,7 +59,7 @@ const Footer = props => {
                           src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2019/01/5233554c-7b21-40f0-8da3-c18d867032a6rs_90.90.fit_.png?zoom=2&amp;resize=90%2C90"
                           className="attachment-thumbnail size-thumbnail"
                           alt="2019 pick: the knot best of weddings"
-                          srcset="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2019/01/5233554c-7b21-40f0-8da3-c18d867032a6rs_90.90.fit_.png?zoom=2&amp;resize=90%2C90"
+                          srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2019/01/5233554c-7b21-40f0-8da3-c18d867032a6rs_90.90.fit_.png?zoom=2&amp;resize=90%2C90"
                           src-orig="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2019/01/5233554c-7b21-40f0-8da3-c18d867032a6rs_90.90.fit_.png?resize=90%2C90"
                           scale="2"
                         />

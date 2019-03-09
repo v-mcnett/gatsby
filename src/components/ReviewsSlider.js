@@ -46,13 +46,13 @@ export default class ReviewsSlider extends Component {
           className="content-jetpack-testimonial box-style-plain" style={{marginBottom: '80px'}}
         >
           <div className="site-boundary">
-            <h2 class="widget-title content-widget-title">
+            <h2 className="widget-title content-widget-title">
               CUSTOMERS SAY IT BEST
             </h2>
             <Slider {...settings}>
               <div>
-                <div class="testimonial-entry-content-wrapper no-testimonial-image">
-                  <div class="testimonial-entry-content">
+                <div className="testimonial-entry-content-wrapper no-testimonial-image">
+                  <div className="testimonial-entry-content">
                     Emerald City Photobooth went above and beyond for our
                     wedding. We could not have been any happier with them and
                     would strongly recommend them to anyone considering a photo
@@ -63,9 +63,9 @@ export default class ReviewsSlider extends Component {
                     helpful throughout the night. She helped our guests pick out
                     costumes and assisted them […]
                   </div>
-                  <div class="testimonial-entry-signature">
-                    <i class="genericons-neue genericons-neue-heart" />
-                    <span class="testimonial-signature">Erin, Seattle WA</span>
+                  <div className="testimonial-entry-signature">
+                    <i className="genericons-neue genericons-neue-heart" />
+                    <span className="testimonial-signature">Erin, Seattle WA</span>
                   </div>
                 </div>
               </div>

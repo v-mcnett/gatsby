@@ -3,16 +3,22 @@ import Page from '../components/Page'
 
 export default () => (
   <Page title="Thank You">
-    <div id="main" className="alt">
-      <section id="one">
-        <div className="inner">
-          <header className="major">
-            <h1>Success/Thank You Page</h1>
-          </header>
+    <div id="content" className="site-content">
+      <div className="site-boundary">
+        <div id="primary" className="content-area">
+          <main id="main" className="site-main">
+            <section id="one">
+              <div className="inner">
+                <header className="major">
+                  <h1>Success/Thank You Page</h1>
+                </header>
 
-          <p>Thank you for contacting us!</p>
+                <p>Thank you for contacting us!</p>
+              </div>
+            </section>
+          </main>
         </div>
-      </section>
+      </div>
     </div>
   </Page>
 )
