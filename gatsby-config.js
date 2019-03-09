@@ -26,26 +26,25 @@ module.exports = {
       options: {},
     },
     'gatsby-plugin-offline',
-
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: '${__dirname}/src/pages',
         name: 'pages',
+        path: 'src/pages',
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'data',
-        path: '${__dirname}/src/data/',
+        path: 'src/data/',
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'img',
-        path: '${__dirname}/src/img/',
+        path: 'src/img/',
       },
     },
     {
