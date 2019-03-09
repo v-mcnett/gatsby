@@ -171,14 +171,14 @@ const Footer = props => {
           </div>
         </div>
         <div>
-          <Typography variant="caption" component="span">
+          <span style={{fontSize:.8 + "rem"}}>
             ©{new Date().getFullYear()} {company}{' '}
             <Hidden only={['xs', 'sm']}>–</Hidden>
             <Hidden only={['xl', 'lg', 'md']}>
               <br />
             </Hidden>{' '}
             {email}
-          </Typography>
+          </span>
         </div>
       </div>
     </footer>

@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../img/cropped-ecpb-1.png"
 
 class Header extends React.Component {
   render() {
@@ -106,16 +107,8 @@ class Header extends React.Component {
                   rel="home"
                   itemProp="url"
                 >
-                  <img
-                    width="380"
-                    height="237"
-                    src="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?fit=380%2C237"
-                    className="custom-logo"
-                    alt="Emerald City Photo Booth"
-                    itemProp="logo"
-                    srcSet="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?w=380 380w, https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/11/cropped-ecpb-1.png?resize=300%2C187 300w"
-                    sizes="(max-width: 380px) 100vw, 380px"
-                  />
+                 <img src={logo} alt="Logo" />
+                  
                 </a>
               </div>
 

@@ -230,12 +230,17 @@ class Slider extends React.Component {
                   <div className="content-wrapper no-custom-color text-background-color">
                     <div className="content-text">
                       <h2>All Inclusive Photo Booth Packages</h2>
-
-                      <ul>
-                        <li>includes delivery, set-up and removal</li>
-                        <li>4 hours of unlimited photos</li>
-                        <li>fast printing photo booths</li>
-                        <li>
+                      <ul style={{fontSize:14 + 'px'}}>
+                        <li style={{marginBottom:10 + 'px'}}>
+                          includes delivery, set-up and removal
+                        </li>
+                        <li style={{marginBottom:10 + 'px'}}>
+                          4 hours of unlimited photos
+                        </li>
+                        <li style={{marginBottom:10 + 'px'}}>
+                          fast printing photo booths
+                        </li>
+                        <li style={{marginBottom:10 + 'px'}}>
                           single 4x6 or double 2x6 photo strips in color or
                           black &amp; white
                         </li>
