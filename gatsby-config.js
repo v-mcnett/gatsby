@@ -22,7 +22,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {},
     },
     'gatsby-plugin-offline',
@@ -30,41 +30,41 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages`,
+        path: '${__dirname}/src/pages',
         name: 'pages',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
+        name: 'data',
+        path: '${__dirname}/src/data/',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `img`,
-        path: `${__dirname}/src/img/`,
+        name: 'img',
+        path: '${__dirname}/src/img/',
       },
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './images/logo.png',
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-20215326-1',
       },
     },
     {
-      resolve: `gatsby-source-instagram`,
+      resolve: 'gatsby-source-instagram',
       options: {
-        username: `emeraldcityphotobooth`,
+        username: 'emeraldcityphotobooth',
       },
     },
   ],
-}
+};
