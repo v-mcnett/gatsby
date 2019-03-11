@@ -7,15 +7,16 @@ export default class ReviewsSlider extends Component {
       dots: true,
       infinite: false,
       speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      swipeToSlide: true,
       initialSlide: 0,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
             dots: true,
           },
@@ -25,7 +26,6 @@ export default class ReviewsSlider extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2,
           },
         },
         {
@@ -37,6 +37,8 @@ export default class ReviewsSlider extends Component {
         },
       ],
     }
+
+    console.log(this.props);
     return (
       <section
         id="crimson-rose-content-widget-jetpack-testimonials-2"
@@ -50,46 +52,24 @@ export default class ReviewsSlider extends Component {
               CUSTOMERS SAY IT BEST
             </h2>
             <Slider {...settings}>
-              <div>
-                <div className="testimonial-entry-content-wrapper no-testimonial-image">
-                  <div className="testimonial-entry-content">
-                    Emerald City Photobooth went above and beyond for our
-                    wedding. We could not have been any happier with them and
-                    would strongly recommend them to anyone considering a photo
-                    booth at their event. The photobooth was easy to use, and
-                    set-up, and produced high quality professional photos. Our
-                    wedding guests loved the costumes and themes that were
-                    provided, and the on-site attendant was extremely polite and
-                    helpful throughout the night. She helped our guests pick out
-                    costumes and assisted them […]
+            {
+            this.props.posts.map((item, i) => {
+                return (
+                  <div class="review-slider" key={i.toString()}>
+                  <div >
+                    <div className="testimonial-entry-content-wrapper no-testimonial-image">
+                      <div className="testimonial-entry-content" dangerouslySetInnerHTML={{ __html: item.node.html }} />
+                    </div>
                   </div>
                   <div className="testimonial-entry-signature">
-                    <i className="genericons-neue genericons-neue-heart" />
-                    <span className="testimonial-signature">Erin, Seattle WA</span>
-                  </div>
+                  <i className="genericons-neue genericons-neue-heart" />
+                  <span className="testimonial-signature">{item.node.frontmatter.title}</span>
                 </div>
-              </div>
-              <div>
-                <h3>2</h3>
-              </div>
-              <div>
-                <h3>3</h3>
-              </div>
-              <div>
-                <h3>4</h3>
-              </div>
-              <div>
-                <h3>5</h3>
-              </div>
-              <div>
-                <h3>6</h3>
-              </div>
-              <div>
-                <h3>7</h3>
-              </div>
-              <div>
-                <h3>8</h3>
-              </div>
+                </div>
+                )
+            }) 
+          }
+              
             </Slider>
           </div>
         </div>

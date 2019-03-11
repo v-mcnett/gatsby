@@ -2,17 +2,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Page from '../components/Page'
-import List from '../components/List'
-import Tabs from '../components/Tabs'
 import Slider from '../components/Slider'
 import ReviewsSlider from '../components/ReviewsSlider'
 import BoothGalleries from '../components/BoothGalleries'
 import EventGalleries from '../components/EventGalleries'
 import Gallery from '../components/Gallery'
 import { withStyles } from '@material-ui/core/styles'
-import Typography from '@material-ui/core/Typography'
-import { Alien } from 'mdi-material-ui'
-import { Robot } from 'mdi-material-ui'
 import logo from '../../images/logo.png'
 import withRoot from '../utils/withRoot'
 
@@ -44,8 +39,7 @@ const styles = theme => ({
     const {
       classes,
       data: {
-        Products: { edges: products },
-        Services: { edges: services },
+        Reviews: { edges: reviews },
         Basic: {
           siteMetadata: {
             domain,
@@ -71,47 +65,10 @@ const styles = theme => ({
         
         <Slider />
         <EventGalleries />
-        <ReviewsSlider />
+        <ReviewsSlider posts={reviews}/>
         <BoothGalleries />
         
-        <div className={classes.text}>
-          <Typography
-            paragraph
-            color="primary"
-            gutterBottom
-            variant="h1"
-            component="span"
-          >
-            <span className={classes.angles}>&lt;</span> hi{' '}
-            <span className={classes.angles}>&gt;</span>
-          </Typography>
-          <Typography paragraph gutterBottom variant="body1" component="span">
-            {preamble}
-          </Typography>
-          <Typography paragraph gutterBottom variant="body1" component="span">
-            {defaultDescription}
-          </Typography>
-        </div>
-        <div className={props.classes.tabs}>
-          <Tabs
-            items={[
-              ['Our Products', <Robot />, <List items={products} />],
-              ['Our Services', <Alien />, <List items={services} />],
-            ]}
-          />
-        </div>
-        <div className={classes.text}>
-          <Typography
-            paragraph
-            color="primary"
-            gutterBottom
-            variant="h5"
-            component="span"
-          >
-            <span className={classes.angles}>&lt;</span> {email}{' '}
-            <span className={classes.angles}>&gt;</span>
-          </Typography>
-        </div>
+        
         <section>
           <Gallery posts={instaPost}/>
         </section>
@@ -134,29 +91,14 @@ export const query = graphql`
         }
       }
     }
-    Products: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/products/" } }
+    Reviews: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/reviews/" } }
     ) {
       edges {
         node {
           html
           frontmatter {
             title
-            siteLink
-            imageLink
-          }
-        }
-      }
-    }
-    Services: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/services/" } }
-    ) {
-      edges {
-        node {
-          html
-          frontmatter {
-            title
-            imageLink
           }
         }
       }

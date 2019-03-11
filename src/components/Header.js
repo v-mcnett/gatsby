@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "../img/cropped-ecpb-1.png"
+import Img from "gatsby-image"
+
 
 class Header extends React.Component {
   render() {

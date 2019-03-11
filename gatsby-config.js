@@ -34,6 +34,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'img',
+        path: 'src/img',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './images/logo.png',
