@@ -1,8 +1,43 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
-class BoothGalleries extends React.Component {
-  render() {
-    return (
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        PBClassicBlack: file(relativePath: { eq: "photobooth-classic-black.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        PBStandupBlack: file(relativePath: { eq: "photobooth-classic-black2.png" }) {
+          childImageSharp {
+            fluid(maxWidth:205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        PBClassicWhite: file(relativePath: { eq: "photobooth-classic-white.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        PBStandupWhite: file(relativePath: { eq: "photobooth-classic-white2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+      
+    `}
+    render={data => (
       <section id="media_gallery-7" className="content-widget widget_media_gallery">
         <h2 className="widget-title content-widget-title">
           WE OFFER A VARIETY OF BOOTHS
@@ -13,18 +48,7 @@ class BoothGalleries extends React.Component {
         >
           <figure className="gallery-item">
             <div className="gallery-icon portrait">
-              <a href="http://emeraldcityphotobooth.com/photos/index.php/booths/blackboothwithscreen/">
-                <img
-                  width="206"
-                  height="300"
-                  src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/blackBoothWithScreen.png?fit=206%2C300"
-                  className="attachment-medium size-medium"
-                  alt=""
-                  aria-describedby="gallery-2-57"
-                  srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/blackBoothWithScreen.png?w=862 862w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/blackBoothWithScreen.png?resize=206%2C300 206w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/blackBoothWithScreen.png?resize=768%2C1121 768w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/blackBoothWithScreen.png?resize=702%2C1024 702w"
-                  sizes="(max-width: 206px) 100vw, 206px"
-                />
-              </a>
+            <Img fluid={data.PBClassicBlack.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
@@ -35,18 +59,7 @@ class BoothGalleries extends React.Component {
           </figure>
           <figure className="gallery-item">
             <div className="gallery-icon portrait">
-              <a href="http://emeraldcityphotobooth.com/photos/index.php/booths/whitepbhighresolution/">
-                <img
-                  width="214"
-                  height="300"
-                  src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?fit=214%2C300"
-                  className="attachment-medium size-medium"
-                  alt=""
-                  aria-describedby="gallery-2-56"
-                  srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?w=1500 1500w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?resize=214%2C300 214w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?resize=768%2C1075 768w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?resize=731%2C1024 731w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhitePBHighResolution.jpg?w=1320 1320w"
-                  sizes="(max-width: 214px) 100vw, 214px"
-                />
-              </a>
+            <Img fluid={data.PBClassicWhite.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
@@ -57,18 +70,7 @@ class BoothGalleries extends React.Component {
           </figure>
           <figure className="gallery-item">
             <div className="gallery-icon portrait">
-              <a href="http://emeraldcityphotobooth.com/photos/index.php/booths/whiteboothshadow/">
-                <img
-                  width="200"
-                  height="300"
-                  src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhiteBoothShadow.jpg?fit=200%2C300"
-                  className="attachment-medium size-medium"
-                  alt=""
-                  aria-describedby="gallery-2-55"
-                  srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhiteBoothShadow.jpg?w=384 384w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/WhiteBoothShadow.jpg?resize=200%2C300 200w"
-                  sizes="(max-width: 200px) 100vw, 200px"
-                />
-              </a>
+            <Img fluid={data.PBStandupWhite.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
@@ -79,18 +81,7 @@ class BoothGalleries extends React.Component {
           </figure>
           <figure className="gallery-item">
             <div className="gallery-icon portrait">
-              <a href="http://emeraldcityphotobooth.com/photos/index.php/booths/photobooth/">
-                <img
-                  width="205"
-                  height="300"
-                  src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?fit=205%2C300"
-                  className="attachment-medium size-medium"
-                  alt=""
-                  aria-describedby="gallery-2-52"
-                  srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?w=247 247w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?resize=205%2C300 205w"
-                  sizes="(max-width: 205px) 100vw, 205px"
-                />
-              </a>
+            <Img fluid={data.PBStandupBlack.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
@@ -101,8 +92,6 @@ class BoothGalleries extends React.Component {
           </figure>
         </div>
       </section>
-    )
-  }
-}
-
-export default BoothGalleries
+    )}
+    />
+  )

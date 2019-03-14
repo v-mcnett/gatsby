@@ -17,8 +17,6 @@ export default class ReviewsSlider extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            infinite: true,
-            dots: true,
           },
         },
         {
@@ -38,7 +36,6 @@ export default class ReviewsSlider extends Component {
       ],
     }
 
-    console.log(this.props);
     return (
       <section
         id="crimson-rose-content-widget-jetpack-testimonials-2"
@@ -55,7 +52,7 @@ export default class ReviewsSlider extends Component {
             {
             this.props.posts.map((item, i) => {
                 return (
-                  <div class="review-slider" key={i.toString()}>
+                  <div className="review-slider" key={i.toString()}>
                   <div >
                     <div className="testimonial-entry-content-wrapper no-testimonial-image">
                       <div className="testimonial-entry-content" dangerouslySetInnerHTML={{ __html: item.node.html }} />

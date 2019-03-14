@@ -1,11 +1,22 @@
 import React from 'react'
-import logo from "../img/cropped-ecpb-1.png"
-import Img from "gatsby-image"
+import { Link } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
-
-class Header extends React.Component {
-  render() {
-    return (
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query HeaderImage {
+        file(relativePath: { eq: "header.png" }) {
+          childImageSharp {
+            fixed(width: 400, height: 190) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
       <section>
         <div className="site-header-inner">
           <div className="top-header">
@@ -21,9 +32,7 @@ class Header extends React.Component {
                       id="menu-item-727"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"
                     >
-                      <a href="http://emeraldcityphotobooth.com/photos/index.php/294-2/">
-                        Request a Quote
-                      </a>
+                      <Link to="/BookingForm">Request a Quote</Link>
                     </li>
                   </ul>{' '}
                 </nav>
@@ -109,8 +118,7 @@ class Header extends React.Component {
                   rel="home"
                   itemProp="url"
                 >
-                 <img src={logo} alt="Logo" />
-                  
+                  <Img fixed={data.file.childImageSharp.fixed} />
                 </a>
               </div>
 
@@ -125,8 +133,6 @@ class Header extends React.Component {
           </div>
         </div>
       </section>
-    )
-  }
-}
-
-export default Header
+    )}
+  />
+)

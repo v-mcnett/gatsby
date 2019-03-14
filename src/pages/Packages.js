@@ -1,6 +1,4 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-import SEO from '../components/SEO'
 import Page from '../components/Page'
 import withRoot from '../utils/withRoot'
 
