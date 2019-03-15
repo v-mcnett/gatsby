@@ -1,8 +1,47 @@
 import React from 'react'
+import Slider from 'react-slick'
+import Img from 'gatsby-image'
+import { StaticQuery, graphql } from 'gatsby'
+import '../../node_modules/slick-carousel/slick/slick.css'
+import '../../node_modules/slick-carousel/slick/slick-theme.css'
 
-class Slider extends React.Component {
-  render() {
-    return (
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        PBStrips: file(
+          relativePath: { eq: "Cook-Wedding-Reception-0086.jpg" }
+        ) {
+          childImageSharp {
+            fixed(height: 400, width: 205) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        PBEvents: file(relativePath: { eq: "IMG_4156.jpg" }) {
+          childImageSharp {
+            fixed(height: 518, width: 456) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        SliderOne: file(relativePath: { eq: "I-Do-Sodo-2018_0135-1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        SliderTwo: file(relativePath: { eq: "I-Do-Sodo-2018_0203.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 205) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
       <section
         id="crimson-rose-content-widget-collage-4"
         className="content-widget crimson-rose-content-widget-collage"
@@ -157,7 +196,9 @@ class Slider extends React.Component {
             <div className="slide-gutter">
               <div className="slide-overflow">
                 <div className="slide-inner">
-                  <div className="content-wrapper no-custom-color text-background-color" />
+                  <div className="content-wrapper no-custom-color text-background-color">
+                    <Img fixed={data.PBEvents.childImageSharp.fixed} />
+                  </div>
                 </div>
               </div>
             </div>
@@ -212,6 +253,7 @@ class Slider extends React.Component {
                     className="div-link"
                     href="http://emeraldcityphotobooth.com/photos/"
                   >
+                    <Img fixed={data.PBStrips.childImageSharp.fixed} />
                     <span className="screen-reader-text">
                       Continue Reading{' '}
                     </span>
@@ -230,17 +272,17 @@ class Slider extends React.Component {
                   <div className="content-wrapper no-custom-color text-background-color">
                     <div className="content-text">
                       <h2>All Inclusive Photo Booth Packages</h2>
-                      <ul style={{fontSize:14 + 'px'}}>
-                        <li style={{marginBottom:10 + 'px'}}>
+                      <ul style={{ fontSize: 14 + 'px' }}>
+                        <li style={{ marginBottom: 10 + 'px' }}>
                           includes delivery, set-up and removal
                         </li>
-                        <li style={{marginBottom:10 + 'px'}}>
+                        <li style={{ marginBottom: 10 + 'px' }}>
                           4 hours of unlimited photos
                         </li>
-                        <li style={{marginBottom:10 + 'px'}}>
+                        <li style={{ marginBottom: 10 + 'px' }}>
                           fast printing photo booths
                         </li>
-                        <li style={{marginBottom:10 + 'px'}}>
+                        <li style={{ marginBottom: 10 + 'px' }}>
                           single 4x6 or double 2x6 photo strips in color or
                           black &amp; white
                         </li>
@@ -262,8 +304,6 @@ class Slider extends React.Component {
           </div>
         </div>
       </section>
-    )
-  }
-}
-
-export default Slider
+    )}
+  />
+)
