@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Page from '../components/Page'
-import Slider from '../components/Slider'
+import HomepageSlider from '../components/HomepageSlider'
 import ReviewsSlider from '../components/ReviewsSlider'
 import BoothGalleries from '../components/BoothGalleries'
 import EventGalleries from '../components/EventGalleries'
@@ -63,7 +63,7 @@ const styles = theme => ({
           <link rel="canonical" href={domain} />
         </SEO>
         
-        <Slider />
+        <HomepageSlider />
         <EventGalleries />
         <ReviewsSlider posts={reviews}/>
         <BoothGalleries />
