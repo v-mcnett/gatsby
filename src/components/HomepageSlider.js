@@ -13,8 +13,8 @@ const homepageSliderSettings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   swipeToSlide: true,
-  initialSlide: 0
-};
+  initialSlide: 0,
+}
 
 class HomepageSlider extends Component {
   constructor(props) {
@@ -34,30 +34,25 @@ class HomepageSlider extends Component {
             <div className="slide-gutter">
               <div className="bx2-wrapper">
                 <div className="bx2-viewport" aria-live="polite">
-                <Slider {...homepageSliderSettings}>
-                  <div>
-                  <Img fluid={data.SliderOne.childImageSharp.fluid} />
-                  </div>
-                  <div>
-                  <Img fluid={data.SliderTwo.childImageSharp.fluid} />
-                  </div>
-                  <div>
-                  <Img fluid={data.SliderThree.childImageSharp.fluid} />
-                  </div>
-                </Slider>
-     
+                  <Slider {...homepageSliderSettings}>
+                    <div>
+                      <Img fluid={data.SliderOne.childImageSharp.fluid} />
+                    </div>
+                    <div>
+                      <Img fluid={data.SliderTwo.childImageSharp.fluid} />
+                    </div>
+                    <div>
+                      <Img fluid={data.SliderThree.childImageSharp.fluid} />
+                    </div>
+                  </Slider>
                 </div>
-               </div>
+              </div>
             </div>
           </div>
           <div className="slide slide-4">
             <div className="slide-gutter">
               <div className="slide-overflow">
-                <div className="slide-inner">
-                  <div className="content-wrapper no-custom-color text-background-color">
-                    <Img fixed={data.PBEvents.childImageSharp.fixed} />
-                  </div>
-                </div>
+                <Img fixed={data.PBEvents.childImageSharp.fixed} />
               </div>
             </div>
           </div>
@@ -88,9 +83,6 @@ class HomepageSlider extends Component {
                     className="div-link"
                     href="http://emeraldcityphotobooth.com/photos/index.php/about/"
                   >
-                    <span className="screen-reader-text">
-                      Continue Reading{' '}
-                    </span>
                   </a>
                 </div>
               </div>
@@ -112,9 +104,6 @@ class HomepageSlider extends Component {
                     href="http://emeraldcityphotobooth.com/photos/"
                   >
                     <Img fixed={data.PBStrips.childImageSharp.fixed} />
-                    <span className="screen-reader-text">
-                      Continue Reading{' '}
-                    </span>
                   </a>
                 </div>
               </div>
@@ -130,7 +119,7 @@ class HomepageSlider extends Component {
                   <div className="content-wrapper no-custom-color text-background-color">
                     <div className="content-text">
                       <h2>All Inclusive Photo Booth Packages</h2>
-                      <ul style={{ fontSize: 14 + 'px' }}>
+                      <ul style={{ fontSize: 14 + 'px', textAlign: 'left'}}>
                         <li style={{ marginBottom: 10 + 'px' }}>
                           includes delivery, set-up and removal
                         </li>
@@ -152,9 +141,6 @@ class HomepageSlider extends Component {
                     className="div-link"
                     href="http://emeraldcityphotobooth.com/photos/"
                   >
-                    <span className="screen-reader-text">
-                      Continue Reading{' '}
-                    </span>
                   </a>
                 </div>
               </div>
@@ -167,9 +153,6 @@ class HomepageSlider extends Component {
 }
 
 export default props => (
-
-
-
   <StaticQuery
     query={graphql`
       query {
@@ -177,14 +160,14 @@ export default props => (
           relativePath: { eq: "Cook-Wedding-Reception-0086.jpg" }
         ) {
           childImageSharp {
-            fixed(height: 400, width: 245) {
+            fixed(height: 410, width: 265) {
               ...GatsbyImageSharpFixed
             }
           }
         }
         PBEvents: file(relativePath: { eq: "IMG_4156.jpg" }) {
           childImageSharp {
-            fixed(height: 518, width: 490) {
+            fixed(height: 280, width: 560) {
               ...GatsbyImageSharpFixed
             }
           }

@@ -54,15 +54,17 @@ export default class ReviewsSlider extends Component {
             {
             this.props.posts.map((item, i) => {
                 return (
-                  <div className="review-slider" key={i.toString()}>
-                  <div >
-                    <div className="testimonial-entry-content-wrapper no-testimonial-image">
-                      <div className="testimonial-entry-content" dangerouslySetInnerHTML={{ __html: item.node.html }} />
+                  <div className="review-slider-wrapper" key={i.toString()}>
+                  <div className="review-slider">
+                    <div >
+                      <div className="testimonial-entry-content-wrapper no-testimonial-image">
+                        <div className="testimonial-entry-content" dangerouslySetInnerHTML={{ __html: item.node.html }} />
+                      </div>
                     </div>
+                    <div className="testimonial-entry-signature">
+                    <i className="genericons-neue genericons-neue-heart" />
+                    <span className="testimonial-signature">{item.node.frontmatter.title}</span>
                   </div>
-                  <div className="testimonial-entry-signature">
-                  <i className="genericons-neue genericons-neue-heart" />
-                  <span className="testimonial-signature">{item.node.frontmatter.title}</span>
                 </div>
                 </div>
                 )

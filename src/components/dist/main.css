@@ -510,8 +510,9 @@ img#wpstats{display:none;}
 
 #crimson-rose-content-widget-jetpack-testimonials-2 .review-slider {
      background-color: #f7f7f7;
+     margin: 0 20px;
      padding: 40px 20px;
-     min-height: 370px;
+     min-height: 420px;
 
 }
 
@@ -526,4 +527,6 @@ img#wpstats{display:none;}
     padding-right: 40px;
     padding-right: 2.5rem;
 }
-
+#media_gallery-5{
+    margin-top:27px;
+}
