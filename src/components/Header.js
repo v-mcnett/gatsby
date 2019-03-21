@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => (
   <StaticQuery
@@ -51,10 +52,12 @@ export default () => (
                       id="menu-item-30"
                       className="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"
                     >
+                    
                       <a
                         className="social-logo social-logo__pinterest"
                         href="https://www.pinterest.com/emeraldcitywed/"
                       >
+                        <FontAwesomeIcon icon={['fab', 'pinterest']} />
                         <span className="screen-reader-text">Pinterest</span>
                       </a>
                     </li>
@@ -62,10 +65,12 @@ export default () => (
                       id="menu-item-31"
                       className="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"
                     >
+                    
                       <a
                         className="social-logo social-logo__facebook"
                         href="https://www.facebook.com/EmeraldCityPhotoBooth/"
                       >
+                      <FontAwesomeIcon icon={['fab', 'facebook']} />
                         <span className="screen-reader-text">Facebook</span>
                       </a>
                     </li>
@@ -73,10 +78,12 @@ export default () => (
                       id="menu-item-32"
                       className="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
                     >
+                    
                       <a
                         className="social-logo social-logo__twitter-alt"
                         href="https://twitter.com/EmeraldCityWed"
                       >
+                      <FontAwesomeIcon icon={['fab', 'twitter']} />
                         <span className="screen-reader-text">Twitter</span>
                       </a>
                     </li>

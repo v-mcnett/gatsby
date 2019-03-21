@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import "../../node_modules/slick-carousel/slick/slick.css";
-import "../../node_modules/slick-carousel/slick/slick-theme.css";
+import '../../node_modules/slick-carousel/slick/slick.css'
+import '../../node_modules/slick-carousel/slick/slick-theme.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class ReviewsSlider extends Component {
   render() {
@@ -44,33 +45,36 @@ export default class ReviewsSlider extends Component {
         className="content-widget full-width-bar crimson-rose-content-widget-jetpack-testimonials"
       >
         <div
-          className="content-jetpack-testimonial box-style-plain" style={{marginBottom: '80px'}}
+          className="content-jetpack-testimonial box-style-plain"
+          style={{ marginBottom: '80px' }}
         >
           <div className="site-boundary">
             <h2 className="widget-title content-widget-title">
               CUSTOMERS SAY IT BEST
             </h2>
             <Slider {...settings}>
-            {
-            this.props.posts.map((item, i) => {
+              {this.props.posts.map((item, i) => {
                 return (
                   <div className="review-slider-wrapper" key={i.toString()}>
-                  <div className="review-slider">
-                    <div >
-                      <div className="testimonial-entry-content-wrapper no-testimonial-image">
-                        <div className="testimonial-entry-content" dangerouslySetInnerHTML={{ __html: item.node.html }} />
+                    <div className="review-slider">
+                      <div>
+                        <div className="testimonial-entry-content-wrapper no-testimonial-image">
+                          <div
+                            className="testimonial-entry-content"
+                            dangerouslySetInnerHTML={{ __html: item.node.html }}
+                          />
+                        </div>
+                      </div>
+                      <div className="testimonial-entry-signature">
+                        <FontAwesomeIcon icon="heart" />
+                        <span className="testimonial-signature">
+                          {item.node.frontmatter.title}
+                        </span>
                       </div>
                     </div>
-                    <div className="testimonial-entry-signature">
-                    <i className="genericons-neue genericons-neue-heart" />
-                    <span className="testimonial-signature">{item.node.frontmatter.title}</span>
                   </div>
-                </div>
-                </div>
                 )
-            }) 
-          }
-              
+              })}
             </Slider>
           </div>
         </div>
