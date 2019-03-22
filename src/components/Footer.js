@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 import Hidden from '@material-ui/core/Hidden'
 import Img from 'gatsby-image'
@@ -152,9 +153,9 @@ export default () => (
               >
                 <div className="textwidget custom-html-widget">
                   <center>
-                    <a title="" href="/about-us">
-                      About Us
-                    </a>{' '}
+                  <Link to="/AboutUs">
+                    About Us
+                  </Link>{' '}
                     |{' '}
                     <a title="" href="/cancellation-policy">
                       Cancellation Policy

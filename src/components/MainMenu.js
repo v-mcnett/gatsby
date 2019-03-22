@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Header extends React.Component {
@@ -36,33 +37,33 @@ class Header extends React.Component {
                   id="menu-item-51"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/index.php/booths/">
+                  <Link to="/Booths">
                     Booths
-                  </a>
+                  </Link>
                 </li>
                 <li
                   id="menu-item-312"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-312"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/index.php/personalization-options/">
+                  <Link to="/Customize">
                     Customize
-                  </a>
+                  </Link>
                 </li>
                 <li
                   id="menu-item-168"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/index.php/faq/">
+                  <Link to="/FAQs">
                     FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li
                   id="menu-item-729"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-729"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/index.php/about-us/">
+                  <Link to="/AboutUs">
                     About Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>{' '}

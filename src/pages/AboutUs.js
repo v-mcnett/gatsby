@@ -6,7 +6,7 @@ class FAQs extends React.Component {
   render() {
     return (
       <Page title="Frequently Asked Questions">
-        <div id="content" className="site-content">
+        <div id="content" className="site-content ecpb-site-boundary">
           <div className="site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
