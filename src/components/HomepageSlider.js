@@ -74,16 +74,13 @@ class HomepageSlider extends Component {
                         We travel all over Washington state bringing our
                         innovative photo booths to weddings, anniversaries,
                         proms, graduations, corporate events, birthday parties
-                        and more!
+                        and more! <a href="http://emeraldcityphotobooth.com/photos/index.php/about/"
+                  >Learn more about us.</a>
                       </p>
                     </div>
                   </div>
 
-                  <a
-                    className="div-link"
-                    href="http://emeraldcityphotobooth.com/photos/index.php/about/"
-                  >
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -99,9 +96,7 @@ class HomepageSlider extends Component {
                     <div className="content-text" />
                   </div>
 
-                  <a
-                    className="div-link"
-                    href="http://emeraldcityphotobooth.com/photos/"
+                  <a href="http://emeraldcityphotobooth.com/photos/"
                   >
                     <Img fixed={data.PBStrips.childImageSharp.fixed} />
                   </a>
@@ -134,14 +129,10 @@ class HomepageSlider extends Component {
                           black &amp; white
                         </li>
                       </ul>
+                      <p><a href="http://emeraldcityphotobooth.com/photos/"
+                  >View our packages.</a></p>
                     </div>
                   </div>
-
-                  <a
-                    className="div-link"
-                    href="http://emeraldcityphotobooth.com/photos/"
-                  >
-                  </a>
                 </div>
               </div>
             </div>

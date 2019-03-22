@@ -68,7 +68,7 @@ export default class ReviewsSlider extends Component {
                       <div className="testimonial-entry-signature">
                         <FontAwesomeIcon icon="heart" />
                         <span className="testimonial-signature">
-                          {item.node.frontmatter.title}
+                          {' '}{item.node.frontmatter.title}
                         </span>
                       </div>
                     </div>
