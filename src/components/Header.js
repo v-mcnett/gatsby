@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import BackgroundImage from '../img/top-right-header-bg.png'
 
 export default () => (
   <StaticQuery
@@ -19,7 +20,7 @@ export default () => (
     `}
     render={data => (
       <section>
-        <div className="site-header-inner">
+        <div className="site-header-inner" style={{ backgroundImage: `url(${BackgroundImage})` }}>
           <div className="top-header">
             <div className="site-boundary">
               <div className="top-left-header">
