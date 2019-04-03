@@ -36,7 +36,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Page title="Thank You">
-        <div id="content" className="site-content">
+      <div id="content" className="site-content ecpb-site-boundary">
           <div className="site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
@@ -55,35 +55,6 @@ export default class Contact extends React.Component {
                     <label>
                       Don’t fill this out:{' '}
                       <input name="bot-field" onChange={this.handleChange} />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Your name:
-                      <br />
-                      <input
-                        type="text"
-                        name="name"
-                        onChange={this.handleChange}
-                      />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Your email:
-                      <br />
-                      <input
-                        type="email"
-                        name="email"
-                        onChange={this.handleChange}
-                      />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Message:
-                      <br />
-                      <textarea name="message" onChange={this.handleChange} />
                     </label>
                   </p>
 
