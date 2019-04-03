@@ -23,15 +23,15 @@ class Header extends React.Component {
                   id="menu-item-19"
                   className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-19"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li
                   id="menu-item-105"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"
                 >
-                  <a href="http://emeraldcityphotobooth.com/photos/index.php/packages/">
+                  <Link to="/Pricing">
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li
                   id="menu-item-51"

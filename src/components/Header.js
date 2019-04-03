@@ -101,9 +101,9 @@ export default () => (
                       id="menu-item-29"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"
                     >
-                      <a href="http://emeraldcityphotobooth.com/photos/index.php/contact/">
+                      <Link to="/ContactUs">
                         Call or Text
-                      </a>
+                      </Link>
                     </li>
                     <li
                       id="menu-item-307"
@@ -120,14 +120,9 @@ export default () => (
           <div className="site-branding">
             <div className="site-boundary">
               <div className="site-logo">
-                <a
-                  href="http://emeraldcityphotobooth.com/photos/"
-                  className="custom-logo-link"
-                  rel="home"
-                  itemProp="url"
-                >
+              <Link to="/">
                   <Img fixed={data.file.childImageSharp.fixed} />
-                </a>
+                </Link>
               </div>
 
               <p className="site-title">

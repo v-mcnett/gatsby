@@ -157,13 +157,13 @@ export default () => (
                     About Us
                   </Link>{' '}
                     |{' '}
-                    <a title="" href="/cancellation-policy">
+                    <Link to="/CancellationPolicy">
                       Cancellation Policy
-                    </a>{' '}
+                    </Link>{' '}
                     |{' '}
-                    <a title="" href="/privacy-policy">
+                    <Link to="/PrivacyPolicy">
                       Privacy Policy
-                    </a>
+                    </Link>
                     <br />
                     <br />
                     Serving Washington State, including Bellevue, Bonney Lake,
@@ -177,12 +177,12 @@ export default () => (
           </div>
           <div>
             <span style={{ fontSize: 0.8 + 'rem' }}>
-              ©{new Date().getFullYear()} {data.site.company}{' '}
+              ©{new Date().getFullYear()} {data.site.siteMetadata.company}{' '}
               <Hidden only={['xs', 'sm']}>–</Hidden>
               <Hidden only={['xl', 'lg', 'md']}>
                 <br />
               </Hidden>{' '}
-              {data.site.email}
+              {data.site.siteMetadata.contact.email}
             </span>
           </div>
         </div>
