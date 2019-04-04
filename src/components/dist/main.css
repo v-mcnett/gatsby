@@ -70,6 +70,11 @@ a:hover,a:active{outline:none;}
 @media screen and (max-width: 960px){
 #site-navigation .site-boundary{padding-left:0;padding-right:0;}
 #site-navigation .top-mobile-header,#site-navigation .main-menu{display:none;}
+@media screen and (max-width: 960px) {
+#site-navigation.toggled .top-mobile-header, #site-navigation.toggled .main-menu {
+    display: block;
+}
+}
 #site-navigation .top-mobile-header #top-left-menu a,#site-navigation .top-mobile-header #top-right-menu a{text-transform:uppercase;font-size:14px;font-size:0.875rem;font-weight:bold;}
 #site-navigation .top-mobile-header #top-left-menu a,#site-navigation .top-mobile-header #top-left-menu a:hover,#site-navigation .top-mobile-header #top-left-menu a:active,#site-navigation .top-mobile-header #top-left-menu a:visited,#site-navigation .top-mobile-header #top-left-menu a:focus,#site-navigation .top-mobile-header #top-right-menu a,#site-navigation .top-mobile-header #top-right-menu a:hover,#site-navigation .top-mobile-header #top-right-menu a:active,#site-navigation .top-mobile-header #top-right-menu a:visited,#site-navigation .top-mobile-header #top-right-menu a:focus{color:#959595;}
 #site-navigation .top-mobile-header .social-navigation a:before{line-height:inherit;height:auto;}
@@ -500,4 +505,11 @@ img#wpstats{display:none;}
 }
 #media_gallery-5{
     margin-top:27px;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }

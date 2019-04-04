@@ -82,9 +82,9 @@ export default () => (
                       <a href="tel:3603670329">360.367.0329</a>
                     </center>
                     <center>
-                      <a href="http://emeraldcityphotobooth.com/photos/index.php/contact/">
+                    <Link to="/ContactUs">
                         email
-                      </a>
+                      </Link>
                     </center>
                     <p />
                   </div>

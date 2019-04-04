@@ -65,6 +65,8 @@ export default class Contact extends React.Component {
                         type="text"
                         name="name"
                         onChange={this.handleChange}
+                        size="40"
+                        maxLength="128"
                       />
                     </label>
                   </p>
@@ -76,6 +78,8 @@ export default class Contact extends React.Component {
                         type="email"
                         name="email"
                         onChange={this.handleChange}
+                        size="40"
+                        maxLength="128"
                       />
                     </label>
                   </p>
@@ -83,8 +87,8 @@ export default class Contact extends React.Component {
                     <label>
                       Message:
                       <br />
-                      <textarea name="message" onChange={this.handleChange} />
-                    </label>
+                      <textarea name="message" onChange={this.handleChange} cols="40" rows="10"/>
+                     </label>
                   </p>
                   <p>
                     <button type="submit">Send</button>

@@ -115,11 +115,11 @@ class FAQs extends React.Component {
                     <p>
                       If you are interested in photo booths in the Maryland area
                       please see{' '}
-                      <a href="http://www.photoboothmd.com">
+                      <a href="http://www.photoboothmd.com" target="_blank">
                         http://www.photoboothmd.com
                       </a>
                       . Or if you are interested in owning a photo booth see{' '}
-                      <a href="http://www.kingdomphotobooth.com">
+                      <a href="http://www.kingdomphotobooth.com" target="_blank">
                         http://www.kingdomphotobooth.com
                       </a>
                       .

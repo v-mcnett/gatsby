@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Page from '../components/Page'
 import withRoot from '../utils/withRoot'
 
@@ -491,9 +492,9 @@ class Pricing extends React.Component {
                     <strong>
                       Reserve your date, non refundable deposit of $295, applies
                       to purchase.{' '}
-                      <a href="http://www.emeraldcityphotobooth.com/book-a-booth">
+                      <Link to="/BookingForm">
                         Book yours now!
-                      </a>
+                      </Link>
                     </strong>
                   </p>
 

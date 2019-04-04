@@ -68,10 +68,16 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_0"
                       >
-                        Name <span className="wpforms-required-label">*</span>
+                        Name <span className="wpforms-required-label">* {" "}</span>
                       </label>
                       <div className="wpforms-field-row wpforms-field-medium">
                         <div className="wpforms-field-row-block wpforms-first wpforms-one-half">
+                        <label
+                            for="wpforms-292-field_0"
+                            className="wpforms-field-sublabel after "
+                          >
+                            First {" "}
+                          </label>
                           <input
                             type="text"
                             id="wpforms-292-field_0"
@@ -80,15 +86,18 @@ export default class Contact extends React.Component {
                             required=""
                             aria-required="true"
                             onChange={this.handleChange}
+                            size="40"
+                            maxLength="128"
                           />
-                          <label
-                            for="wpforms-292-field_0"
-                            className="wpforms-field-sublabel after "
-                          >
-                            First
-                          </label>
+                          
                         </div>
                         <div className="wpforms-field-row-block wpforms-one-half">
+                        <label
+                            for="wpforms-292-field_0-last"
+                            className="wpforms-field-sublabel after "
+                          >
+                            Last {" "}
+                          </label>
                           <input
                             type="text"
                             id="wpforms-292-field_0-last"
@@ -97,13 +106,10 @@ export default class Contact extends React.Component {
                             required=""
                             aria-required="true"
                             onChange={this.handleChange}
+                            size="40"
+                            maxLength="128"
                           />
-                          <label
-                            for="wpforms-292-field_0-last"
-                            className="wpforms-field-sublabel after "
-                          >
-                            Last
-                          </label>
+                          
                         </div>
                       </div>
                     </div>
@@ -117,7 +123,7 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_1"
                       >
-                        Email <span className="wpforms-required-label">*</span>
+                        Email <span className="wpforms-required-label">* {" "}</span>
                       </label>
                       <input
                         type="email"
@@ -127,6 +133,8 @@ export default class Contact extends React.Component {
                         required=""
                         aria-required="true"
                         onChange={this.handleChange}
+                        size="40"
+                        maxLength="128"
                       />
                     </div>
 
@@ -139,13 +147,15 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_3"
                       >
-                        Phone Number
+                        Phone Number {" "}
                       </label>
                       <input
                         type="number"
                         id="wpforms-292-field_3"
                         className="wpforms-field-small"
                         name="wpforms[fields][3]"
+                        size="40"
+                        maxLength="128"
                       />
                     </div>
 
@@ -159,7 +169,7 @@ export default class Contact extends React.Component {
                         for="wpforms-292-field_4"
                       >
                         Event Type{' '}
-                        <span className="wpforms-required-label">*</span>
+                        <span className="wpforms-required-label">* {" "}</span>
                       </label>
                       <ul
                         id="wpforms-292-field_4"
@@ -277,8 +287,8 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_10"
                       >
-                        Event Date{' '}
-                        <span className="wpforms-required-label">*</span>
+                        Event Date {' '}
+                        <span className="wpforms-required-label">* {" "}</span>
                       </label>
                       <input
                         type="text"
@@ -300,7 +310,7 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_5"
                       >
-                        Event Location
+                        Event Location {" "}
                       </label>
 
                       <input
@@ -542,7 +552,7 @@ export default class Contact extends React.Component {
                         for="wpforms-292-field_2"
                       >
                         Comment or Message{' '}
-                        <span className="wpforms-required-label">*</span>
+                        <span className="wpforms-required-label">* {" "}</span>
                       </label>
                       <textarea
                         id="wpforms-292-field_2"
@@ -551,6 +561,7 @@ export default class Contact extends React.Component {
                         required=""
                         aria-required="true"
                         onChange={this.handleChange}
+                        cols="40" rows="10"
                       />
                     </div>
                   </div>
