@@ -221,7 +221,7 @@ a:hover,a:active{outline:none;}
 body{background:#ffffff;}
 .widgetized-page .site-content .content-widget,.site-boundary{max-width:1140px;max-width:71.25rem;margin-left:auto;margin-right:auto;display:block;padding-left:40px;padding-left:2.5rem;padding-right:40px;padding-right:2.5rem;}
 #master .widgetized-page .site-content .full-width-bar,#master .widgetized-page .site-content > .site-boundary{max-width:none;margin:0;display:block;padding:0;}
-.site-content{padding-top:50px;padding-top:1.25rem;padding-bottom:50px;padding-bottom:3.125rem;position:relative;}
+.site-content{padding-top:50px;padding-top:1.25rem;padding-bottom:50px;padding-bottom:0rem;position:relative;}
 body.widgetized-page .site-content{padding-top:20px;padding-top:1.25rem;}
 @media (max-width: 700px){
 .widgetized-page .site-content .content-widget,.site-boundary{padding-left:20px;padding-left:1.25rem;padding-right:20px;padding-right:1.25rem;}

@@ -90,6 +90,7 @@ export default class Contact extends React.Component {
                             onChange={this.handleChange}
                             size="40"
                             maxLength="128"
+                            required
                           />
                           
                         </div>
@@ -137,6 +138,7 @@ export default class Contact extends React.Component {
                         onChange={this.handleChange}
                         size="40"
                         maxLength="128"
+                        required
                       />
                     </div>
 
@@ -149,15 +151,16 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_3"
                       >
-                        Phone Number {" "}
+                        Phone Number {" "}<span className="wpforms-required-label">*</span>
                       </label>
                       <input
-                        type="number"
+                        type="tel"
                         id="wpforms-292-field_3"
                         className="wpforms-field-small"
                         name="wpforms[fields][3]"
                         size="40"
                         maxLength="128"
+                        required
                       />
                     </div>
 
@@ -170,8 +173,7 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_4"
                       >
-                        Event Type{' '}
-                        <span className="wpforms-required-label">* {" "}</span>
+                        Event Type                        
                       </label>
                       <ul
                         id="wpforms-292-field_4"
@@ -289,8 +291,7 @@ export default class Contact extends React.Component {
                         className="wpforms-field-label"
                         for="wpforms-292-field_10"
                       >
-                        Event Date {' '}
-                        <span className="wpforms-required-label">* {" "}</span>
+                        Event Date
                       </label>
                       <input
                         type="text"

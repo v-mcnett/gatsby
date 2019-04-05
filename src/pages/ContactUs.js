@@ -72,7 +72,7 @@ export default class Contact extends React.Component {
                   </p>
                   <p>
                     <label>
-                      Your name:
+                      Your name: {" "}<span className="wpforms-required-label">*</span>
                       <br />
                       <input
                         type="text"
@@ -80,12 +80,14 @@ export default class Contact extends React.Component {
                         onChange={this.handleChange}
                         size="40"
                         maxLength="128"
+                        placeholder="Your name"
+                        required
                       />
                     </label>
                   </p>
                   <p>
                     <label>
-                      Your email:
+                      Your email:{" "}<span className="wpforms-required-label">*</span>
                       <br />
                       <input
                         type="email"
@@ -93,18 +95,23 @@ export default class Contact extends React.Component {
                         onChange={this.handleChange}
                         size="40"
                         maxLength="128"
+                        placeholder="Your email"
+                        required
                       />
+                      
                     </label>
                   </p>
                   <p>
                     <label>
-                      Message:
+                      Message:{" "}<span className="wpforms-required-label">*</span>
                       <br />
                       <textarea
                         name="message"
                         onChange={this.handleChange}
                         cols="40"
                         rows="10"
+                        placeholder="Message"
+                        required
                       />
                     </label>
                   </p>
