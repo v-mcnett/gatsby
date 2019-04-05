@@ -5,7 +5,7 @@ import withRoot from '../utils/withRoot'
 class FAQs extends React.Component {
   render() {
     return (
-      <Page title="Frequently Asked Questions">
+      <Page title="Booths">
         <div id="content" className="site-content  ecpb-site-boundary">
           <div className="site-boundary">
             <div id="primary" className="content-area">
@@ -25,7 +25,7 @@ class FAQs extends React.Component {
                           src="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?w=660"
                           alt=""
                           className="wp-image-52"
-                          srcset="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?w=247 247w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?resize=205%2C300 205w"
+                          srcSet="https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?w=247 247w, https://i2.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/07/photobooth.jpg?resize=205%2C300 205w"
                           sizes="(max-width: 247px) 100vw, 247px"
                           width="247"
                           height="361"

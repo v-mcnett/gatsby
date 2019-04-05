@@ -57,7 +57,7 @@ const styles = theme => ({
       },
     } = props
     return (
-      <Page>
+      <Page title="Emerald City Photo Booth">
         <SEO title={defaultTitle}>
           <meta name="description" content={defaultDescription} />
           <link rel="canonical" href={domain} />

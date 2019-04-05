@@ -36,11 +36,23 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Page title="Contact Us">
-      <div id="content" className="site-content ecpb-site-boundary">
+        <div id="content" className="site-content ecpb-site-boundary">
           <div className="site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
                 <h1>Contact Us</h1>
+                <div class="wp-block-column">
+                  <p>We love hearing from our customers!</p>
+                  <h3>By Phone</h3>
+                  <p>
+                    Call <a href="tel:3603670329">(360) 367-0329</a> anytime.
+                  </p>
+                  <h3>By Email</h3>
+                  <p>
+                    To send questions or comments, please use the form below.
+                  </p>
+                </div>
+                <div className="wpforms-container wpforms-container-full">
                 <form
                   name="contact"
                   method="post"
@@ -48,6 +60,7 @@ export default class Contact extends React.Component {
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   onSubmit={this.handleSubmit}
+                  className="wpforms-validate wpforms-form"
                 >
                   {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                   <input type="hidden" name="form-name" value="contact" />
@@ -87,14 +100,19 @@ export default class Contact extends React.Component {
                     <label>
                       Message:
                       <br />
-                      <textarea name="message" onChange={this.handleChange} cols="40" rows="10"/>
-                     </label>
+                      <textarea
+                        name="message"
+                        onChange={this.handleChange}
+                        cols="40"
+                        rows="10"
+                      />
+                    </label>
                   </p>
                   <p>
                     <button type="submit">Send</button>
                   </p>
                 </form>
-              </main>
+              </div></main>
             </div>
           </div>
         </div>

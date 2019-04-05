@@ -36,7 +36,7 @@ class Page extends React.Component {
             <Grid container justify="center" alignItems="stretch">
               <Grid item xs className={classes.root}>
                 <Header />
-                  <MainMenu />
+                  <MainMenu title={this.props.title}/>
                   <div id="content" className="site-content">
                     {children}
                   </div>

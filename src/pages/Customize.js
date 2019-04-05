@@ -5,7 +5,7 @@ import withRoot from '../utils/withRoot'
 class FAQs extends React.Component {
   render() {
     return (
-      <Page title="Frequently Asked Questions">
+      <Page title="Customize">
         <div id="content" className="site-content ecpb-site-boundary">
           <div className="site-boundary">
             <div id="primary" className="content-area">

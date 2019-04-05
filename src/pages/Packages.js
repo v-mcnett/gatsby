@@ -14,7 +14,7 @@ class Packages extends React.Component {
             gladly work with you to find a package to suit you. Packages include
             set-up and delivery!
           </p>
-          <table id="package_table" cellspacing="0" cellpadding="0" border="0">
+          <table id="package_table" cellSpacing="0" cellPadding="0" border="0">
             <tbody>
               <tr>
                 <th>&nbsp;</th>

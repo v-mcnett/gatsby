@@ -41,6 +41,7 @@ export default class Contact extends React.Component {
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
                 <h1>Book a Booth</h1>
+                <div className="wpforms-container wpforms-container-full">
                 <form
                   name="contact"
                   method="post"
@@ -48,6 +49,7 @@ export default class Contact extends React.Component {
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   onSubmit={this.handleSubmit}
+                  className="wpforms-validate wpforms-form"
                 >
                   {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                   <input type="hidden" name="form-name" value="contact" />
@@ -570,6 +572,7 @@ export default class Contact extends React.Component {
                     <button type="submit">Send</button>
                   </p>
                 </form>
+                </div>
               </main>
             </div>
           </div>

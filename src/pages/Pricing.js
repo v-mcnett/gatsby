@@ -11,7 +11,7 @@ class Pricing extends React.Component {
     };
 
     return (
-      <Page title="PRicing">
+      <Page title="Pricing">
         <div id="content" className="site-content ecpb-site-boundary">
           <div id="primary" className="content-area">
             <main id="main" className="site-main">
@@ -31,8 +31,8 @@ class Pricing extends React.Component {
                   </p>
                   <table
                     id="package_table"
-                    cellspacing="0"
-                    cellpadding="0"
+                    cellSpacing="0"
+                    cellPadding="0"
                     border="0"
                     style={styles}
                   >
