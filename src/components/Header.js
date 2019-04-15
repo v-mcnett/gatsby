@@ -9,9 +9,9 @@ export default () => (
   <StaticQuery
     query={graphql`
       query HeaderImage {
-        file(relativePath: { eq: "header.png" }) {
+        file(relativePath: { eq: "ECPBLogo.png" }) {
           childImageSharp {
-            fixed(width: 400, height: 190) {
+            fixed(width: 400, height: 164) {
               ...GatsbyImageSharpFixed
             }
           }
