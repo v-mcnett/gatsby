@@ -80,7 +80,7 @@ export default () => (
                   <div className="textwidget">
                     <p />
                     <center>
-                      <a href="tel:3603670329">360.367.0329</a>
+                      <a href="tel:+13603670329">360.367.0329</a>
                     </center>
                     <center>
                     <Link to="/ContactUs">

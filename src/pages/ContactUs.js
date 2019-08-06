@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
                   <p>We love hearing from our customers!</p>
                   <h3>By Phone</h3>
                   <p>
-                    Call <a href="tel:3603670329">(360) 367-0329</a> anytime.
+                    Call <a href="tel:+13603670329">(360) 367-0329</a> anytime.
                   </p>
                   <h3>By Email</h3>
                   <p>
