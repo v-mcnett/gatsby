@@ -29,7 +29,7 @@
     "core-js": "^2.6.5",
     "eslint": "^5.15.1",
     "fontawesome": "^5.6.3",
-    "gatsby": "^2.1.15",
+    "gatsby": "^2.3.23",
     "gatsby-image": "^2.0.29",
     "gatsby-link": "^2.0.12",
     "gatsby-plugin-favicon": "^3.1.5",
@@ -39,7 +39,8 @@
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-plugin-sharp": "^2.0.34",
+    "gatsby-plugin-sitemap": "^2.0.12",
     "gatsby-source-filesystem": "^2.0.22",
     "gatsby-source-instagram": "^0.2.5",
     "gatsby-transformer-remark": "^2.2.5",
@@ -59,6 +60,7 @@
     "react-slick": "^0.23.2",
     "react-swipeable-views": "^0.13.1",
     "react-swipeable-views-utils": "^0.13.1",
+    "react-text-loop": "^2.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.1.3"
   }
