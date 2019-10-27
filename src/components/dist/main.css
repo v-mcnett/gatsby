@@ -1998,3 +1998,51 @@ div.wpforms-gutenberg-form-selector .wpforms-form select:disabled {
 div.wpforms-gutenberg-form-selector .wpforms-form button[type=submit]:disabled {
 	cursor: not-allowed;
 }
+
+.pricingv2__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	background-color: #fff;
+	
+  }
+  
+  .pricingv2__box {
+	background-color: #eaefe8;
+	border-bottom: 1px#959595 solid;
+	border-right: 1px#959595 solid;
+	border-left: 1px#959595 solid;
+	padding: 0px;
+	text-align: center;
+  }
+  .pricingv2__box h3{
+	background-color: #609374;
+	color: #fff;
+	font-size:1.5rem; 
+	padding: 20px 0;
+	margin: 0px;
+	
+  }
+
+  .pricingv2__bullet {
+	border-top: #959595 1px solid;
+	padding: 20px;
+  }
+  .pricingv2__bookNow  {
+	margin:20px auto;
+	width: 75%;
+  }
+  .pricingv2__bookNow a {
+	background-color: #609374;
+	border-radius: 10px;
+	color: white;
+	display:block;
+	font-weight: bold;
+	padding: 8px;
+	text-transform: uppercase;
+	text-align: center;
+
+  }
+  .pricingv2__bookNow a:hover {
+	  opacity: .8;
+  }
