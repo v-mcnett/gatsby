@@ -33,6 +33,7 @@ class FAQs extends React.Component {
                           <a
                             href="https://www.marysvillewa.gov/762/Opera-House"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Marysville Opera House
                           </a>
@@ -40,6 +41,7 @@ class FAQs extends React.Component {
                           <a
                             href="http://unionstationrotunda.org/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Tacoma Union Station
                           </a>
@@ -47,6 +49,7 @@ class FAQs extends React.Component {
                           <a
                             href="https://www.lakewildernessgc.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Lake Wilderness
                           </a>
@@ -58,6 +61,7 @@ class FAQs extends React.Component {
                           <a
                             href="https://www.cedarbrooklodge.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Cedarbrook Lodge
                           </a>
@@ -65,11 +69,12 @@ class FAQs extends React.Component {
                           <a
                             href="http://www.edgewaterhotel.com/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             The Edgewater Hotel
                           </a>
                           <br />
-                          <a href="http://www.mtsprings.com/" target="_blank">
+                          <a href="http://www.mtsprings.com/" target="_blank" rel="noopener noreferrer">
                             Mountain Springs
                           </a>
                         </p>
@@ -115,11 +120,11 @@ class FAQs extends React.Component {
                     <p>
                       If you are interested in photo booths in the Maryland area
                       please see{' '}
-                      <a href="http://www.photoboothmd.com" target="_blank">
+                      <a href="http://www.photoboothmd.com" target="_blank" rel="noopener noreferrer">
                         http://www.photoboothmd.com
                       </a>
                       . Or if you are interested in owning a photo booth see{' '}
-                      <a href="http://www.kingdomphotobooth.com" target="_blank">
+                      <a href="http://www.kingdomphotobooth.com" target="_blank" rel="noopener noreferrer">
                         http://www.kingdomphotobooth.com
                       </a>
                       .
