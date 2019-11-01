@@ -1974,6 +1974,10 @@ div.wpforms-container-full .wpforms-form .wpforms-screen-reader-element {
 /* Gutenberg Block
 ----------------------------------------------------------------------------- */
 
+.site-main{
+	min-height:300px;
+}
+
 .edit-post-visual-editor .wpforms-gutenberg-form-selector-wrap h3 {
 	width: 100%;
 	margin: 10px 0 5px;
