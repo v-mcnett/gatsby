@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from '../components/Page'
 import { navigateTo } from 'gatsby-link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function encode(data) {
   return Object.keys(data)
@@ -40,7 +41,7 @@ export default class Contact extends React.Component {
           <div className="site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
-                <h1>Book a Booth</h1>
+                <h1>Book a Booth <FontAwesomeIcon icon={['fas', 'calendar']} /></h1>
                 <div className="wpforms-container wpforms-container-full">
                 <form
                   name="contact"
@@ -61,29 +62,22 @@ export default class Contact extends React.Component {
                   </p>
 
                   <div className="wpforms-field-container">
+                    <p>It's easy to book your booth! Just tell us about your Northwest event and we will respond within 24 hours. Or give us a call at <a href="tel:+13603670329">360-367-0329</a>.</p>
                     <div
                       id="wpforms-292-field_0-container"
                       className="wpforms-field wpforms-field-name"
                       data-field-id="0"
                     >
-                      <label
-                        className="wpforms-field-label"
-                        for="wpforms-292-field_0"
-                      >
-                        Name <span className="wpforms-required-label">* {" "}</span>
-                      </label>
-                      <div className="wpforms-field-row wpforms-field-medium">
-                        <div className="wpforms-field-row-block wpforms-first wpforms-one-half">
                         <label
                             for="wpforms-292-field_0"
-                            className="wpforms-field-sublabel after "
+                            className="wpforms-field-label after "
                           >
-                            First {" "}
+                            Name <span className="wpforms-required-label">* {" "}</span>
                           </label>
                           <input
                             type="text"
                             id="wpforms-292-field_0"
-                            className="wpforms-field-name-first wpforms-field-required"
+                            className="wpforms-field-name-first wpforms-field-required wpforms-field-medium"
                             name="wpforms[fields][0][first]"
                             required=""
                             aria-required="true"
@@ -93,28 +87,6 @@ export default class Contact extends React.Component {
                             required
                           />
                           
-                        </div>
-                        <div className="wpforms-field-row-block wpforms-one-half">
-                        <label
-                            for="wpforms-292-field_0-last"
-                            className="wpforms-field-sublabel after "
-                          >
-                            Last {" "}
-                          </label>
-                          <input
-                            type="text"
-                            id="wpforms-292-field_0-last"
-                            className="wpforms-field-name-last wpforms-field-required"
-                            name="wpforms[fields][0][last]"
-                            required=""
-                            aria-required="true"
-                            onChange={this.handleChange}
-                            size="40"
-                            maxLength="128"
-                          />
-                          
-                        </div>
-                      </div>
                     </div>
 
                     <div
@@ -186,7 +158,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="Wedding"
                             required=""
-                            aria-required="true"
                             onChange={this.handleChange}
                           />
                           <label
@@ -203,7 +174,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="Corporate Event"
                             required=""
-                            aria-required="true"
                           />
                           <label
                             className="wpforms-field-label-inline"
@@ -219,7 +189,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="Bar or Bat Mitzvah"
                             required=""
-                            aria-required="true"
                             onChange={this.handleChange}
                           />
                           <label
@@ -236,7 +205,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="School Event"
                             required=""
-                            aria-required="true"
                           />
                           <label
                             className="wpforms-field-label-inline"
@@ -252,7 +220,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="Fundraiser "
                             required=""
-                            aria-required="true"
                             onChange={this.handleChange}
                           />
                           <label
@@ -269,7 +236,6 @@ export default class Contact extends React.Component {
                             name="wpforms[fields][4]"
                             value="Birthday or Anniversary Party"
                             required=""
-                            aria-required="true"
                             onChange={this.handleChange}
                           />
                           <label

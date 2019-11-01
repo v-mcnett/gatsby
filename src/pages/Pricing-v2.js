@@ -27,7 +27,7 @@ class Pricing extends React.Component {
                     Packages include set-up and delivery!
                   </p>
                   <div className="pricingv2__wrapper">
-                    <div className="pricingv2__box silver"><h3 style={{color:"#aaa9ad"}}>SILVER <FontAwesomeIcon icon={['fas', 'star']} /></h3>
+                    <div className="pricingv2__box silver"><div className="title"><h3 style={{color:"#aaa9ad"}}>SILVER <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
                     <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>
@@ -39,7 +39,7 @@ class Pricing extends React.Component {
                     <div className="pricingv2__bullet">USB with All Photos</div>
                   </div>
                   
-                  <div className="pricingv2__box gold"><h3  style={{color:"#d4af37"}}>GOLD <FontAwesomeIcon icon={['fas', 'star']} /></h3>
+                  <div className="pricingv2__box gold"><div className="title"><h3  style={{color:"#d4af37"}}>GOLD <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
                     <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>
@@ -53,7 +53,7 @@ class Pricing extends React.Component {
                     <div className="pricingv2__bullet">2nd Attendant</div>
 
                   </div>
-                  <div className="pricingv2__box platinum"><h3 style={{color:"#e5e4e2"}}>PLATINUM <FontAwesomeIcon  icon={['fas', 'star']} /></h3>
+                  <div className="pricingv2__box platinum"><div className="title"><h3 style={{color:"#e5e4e2"}}>PLATINUM <FontAwesomeIcon  icon={['fas', 'star']} /></h3></div>
                     <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>

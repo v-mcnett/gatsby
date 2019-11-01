@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Page from '../components/Page'
 import withRoot from '../utils/withRoot'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Pricing extends React.Component {
   render() {
@@ -48,31 +49,14 @@ class Pricing extends React.Component {
                           Unlimited Pictures for 4 Hours
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
+                          
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -83,61 +67,25 @@ class Pricing extends React.Component {
                           more!
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
                         <td class="description">Set-up and Removal Included</td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -145,31 +93,13 @@ class Pricing extends React.Component {
                           Professional and Entertaining Attendant
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -177,31 +107,13 @@ class Pricing extends React.Component {
                           Private Online Photo Gallery
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                          <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                          <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -211,31 +123,13 @@ class Pricing extends React.Component {
                           Couple’s names and wedding date
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -243,31 +137,13 @@ class Pricing extends React.Component {
                           Double Photo Strips in Black &amp; White or Color
                         </td>
                         <td valign="top" style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                          <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td valign="top" style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td valign="top" style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -275,83 +151,35 @@ class Pricing extends React.Component {
                           Customized Photo Booth Music
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} /> 
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
                         <td class="description">USB with All Photos</td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
                         <td class="description">Customized Guest Book</td>
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -362,22 +190,10 @@ class Pricing extends React.Component {
                         </td>
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -385,13 +201,7 @@ class Pricing extends React.Component {
                         <td />
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -401,13 +211,7 @@ class Pricing extends React.Component {
                         <td />
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -417,13 +221,7 @@ class Pricing extends React.Component {
                         <td />
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                       <tr>
@@ -433,13 +231,7 @@ class Pricing extends React.Component {
                         <td />
                         <td />
                         <td  style={styles}>
-                          <img
-                            src="https://i0.wp.com/www.emeraldcityphotobooth.com/images/check.gif?resize=24%2C20"
-                            alt="included"
-                            width="24"
-                            vspace="2"
-                            height="20"
-                          />
+                        <FontAwesomeIcon icon={['fas', 'check']} />
                         </td>
                       </tr>
                     </tbody>
