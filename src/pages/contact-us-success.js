@@ -9,9 +9,8 @@ export default () => (
           <main id="main" className="site-main">
             <section id="one">
               <div className="inner">
-                <header className="major">
-                  <h1>Thank You</h1>
-                </header>
+                <h1>Thank You</h1>
+
                 <p>Thank you for contacting us! We typically respond within 1-2 business days. If you don't hear from us, please check your spam folder. </p>
               </div>
             </section>

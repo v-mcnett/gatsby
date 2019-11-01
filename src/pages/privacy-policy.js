@@ -14,9 +14,7 @@ class PrivacyPolicy extends React.Component {
                   id="post-48"
                   className="post-48 page type-page status-publish has-post-thumbnail hentry"
                 >
-                  <header className="entry-header">
-                    <h1 className="entry-title">Privacy Policy</h1>
-                  </header>
+                  <h1 className="entry-title">Privacy Policy</h1>
 
                   <div className="entry-content">
                     <div class="field-item even" property="content:encoded">

@@ -16,9 +16,7 @@ class Pricing extends React.Component {
                 id="post-10"
                 className="post-10 page type-page status-publish has-post-thumbnail hentry"
               >
-                <header className="entry-header">
-                  <h1 className="entry-title">Pricing</h1>
-                </header>
+                <h1 className="entry-title">Pricing</h1>
 
                 <div class="entry-content">
                   <p>

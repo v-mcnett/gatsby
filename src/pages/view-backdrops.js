@@ -15,13 +15,13 @@ class AllBackdrops extends React.Component {
 		          <main id="main" className="site-main">
                 <article id="post-584" className="post-584 page type-page status-publish has-post-thumbnail hentry">
 	              <div className="entry-content"></div>
-              <header className="entry-header"><h1 className="entry-title">Backdrops</h1></header>
+              <h1 className="entry-title">Backdrops</h1>
               <div className="entry-content">
                 <p>Emerald City Photo Booth has backdrops for every occasion. Choose from one of our backdrops or provide your own!</p>
                 <div className="allBackdrops">
                 {
                   this.props.data.allFile.edges.map((item, i) => {
-                    console.log(i);
+
                     //Check for missing images
                     return (
                       

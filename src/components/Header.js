@@ -19,7 +19,7 @@ export default () => (
       }
     `}
     render={data => (
-      <section>
+      <header>
         <div className="site-header-inner" style={{ backgroundImage: `url(${BackgroundImage})` }}>
           <div className="top-header">
             <div className="site-boundary">
@@ -135,7 +135,7 @@ export default () => (
             </div>
           </div>
         </div>
-      </section>
+      </header>
     )}
   />
 )

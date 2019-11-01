@@ -40,8 +40,12 @@ export default class Contact extends React.Component {
           <div className="site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
-                <h1>Contact Us</h1>
-                <div class="wp-block-column">
+              <article
+                id="post-10"
+                className="post-10 page type-page status-publish has-post-thumbnail hentry"
+              >
+              <h1>Contact Us</h1>
+              <div class="wp-block-column">
                   <p>We love hearing from our customers!</p>
                   <h3>By Phone</h3>
                   <p>
@@ -119,7 +123,9 @@ export default class Contact extends React.Component {
                     <button type="submit">Send</button>
                   </p>
                 </form>
-              </div></main>
+              </div>
+              </article>
+              </main>
             </div>
           </div>
         </div>

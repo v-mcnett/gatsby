@@ -13,7 +13,7 @@ class AllReviews extends React.Component {
 		          <main id="main" className="site-main">
                 <article id="post-584" className="post-584 page type-page status-publish has-post-thumbnail hentry">
 	              <div className="entry-content"></div>
-              <header className="entry-header"><h1 className="entry-title">Read Our Reviews</h1></header>
+              <h1 className="entry-title">Read Our Reviews</h1>
               <div className="entry-content">
                 {
                   this.props.data.Reviews.edges.map((item, i) => {

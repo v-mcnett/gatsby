@@ -14,9 +14,7 @@ class FAQs extends React.Component {
                   id="post-7"
                   className="post-7 page type-page status-publish has-post-thumbnail hentry"
                 >
-                  <header className="entry-header">
-                    <h1 className="entry-title">About Us</h1>{' '}
-                  </header>
+                  <h1 className="entry-title">About Us</h1>{' '}
 
                   <div className="entry-content">
                     <p>

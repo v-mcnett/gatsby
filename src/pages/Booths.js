@@ -14,9 +14,7 @@ class FAQs extends React.Component {
                   id="post-48"
                   className="post-48 page type-page status-publish has-post-thumbnail hentry"
                 >
-                  <header className="entry-header">
-                    <h1 className="entry-title">Booths</h1>{' '}
-                  </header>
+                  <h1 className="entry-title">Booths</h1>{' '}
 
                   <div className="entry-content">
                     <div className="wp-block-image">

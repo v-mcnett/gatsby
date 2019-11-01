@@ -14,9 +14,7 @@ class CancellationPolicy extends React.Component {
                   id="post-48"
                   className="post-48 page type-page status-publish has-post-thumbnail hentry"
                 >
-                  <header className="entry-header">
-                    <h1 className="entry-title">Cancellation Policy</h1>
-                  </header>
+                  <h1 className="entry-title">Cancellation Policy</h1>
 
                   <div className="entry-content">
                     <p>
