@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import '../../node_modules/slick-carousel/slick/slick.css'
 import '../../node_modules/slick-carousel/slick/slick-theme.css'
 
@@ -17,10 +16,6 @@ const homepageSliderSettings = {
 }
 
 class HomepageSlider extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     const { data } = this.props // add more props here as needed
 
@@ -129,8 +124,7 @@ class HomepageSlider extends Component {
                           black &amp; white
                         </li>
                       </ul>
-                      <p><a href="http://emeraldcityphotobooth.com/photos/"
-                  >View our packages.</a></p>
+                      <p><Link to="/Pricing">View our packages.</Link></p>
                     </div>
                   </div>
                 </div>

@@ -13,6 +13,7 @@ module.exports = {
       email: 'cmcnett@emeraldcityphotobooth.com',
     },
     menuLinks: [],
+    siteUrl: 'https://emeraldcityphotobooth.com'
   },
   plugins: [
     'gatsby-plugin-less',
@@ -20,6 +21,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-transformer-remark',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-manifest',

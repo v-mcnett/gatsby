@@ -34,7 +34,7 @@ export default () => (
                       id="menu-item-727"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"
                     >
-                      <Link to="/BookingForm">Request a Quote</Link>
+                      <Link to="/BookingForm">Book a booth</Link>
                     </li>
                   </ul>{' '}
                 </nav>

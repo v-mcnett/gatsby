@@ -20,7 +20,7 @@ class FAQs extends React.Component {
 
                   <div className="entry-content">
                     <p>
-                      We are a family owned company. We travel throughout
+                      We are a family owned company founded in 2010. We travel throughout
                       Washington including: Bellingham, Seattle, Spokane,
                       Vancouver, Wenatchee, Yakima and everywhere in between
                       bringing you fun and exciting photo booths. Some of our

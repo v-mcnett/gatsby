@@ -80,11 +80,11 @@ export default () => (
                   <div className="textwidget">
                     <p />
                     <center>
-                      <a href="tel:+13603670329">360.367.0329</a>
+                      <a href="tel:+13603670329"><FontAwesomeIcon icon={['fas', 'phone']} />{' '}360.367.0329</a>
                     </center>
                     <center>
                     <Link to="/ContactUs">
-                        email
+                    <FontAwesomeIcon icon={['fas', 'envelope']} />{' '}email
                       </Link>
                     </center>
                     <p />
@@ -169,8 +169,8 @@ export default () => (
                     <br />
                     <br />
                     Serving Washington State, including Bellevue, Bonney Lake,
-                    Everett, Issaquah, Kent, Kirkland, Lynnwood, Newcastle,
-                    Maple Valley, Mercer Island, Redmond, Seattle, Snohomish,
+                    Bothell, Everett, Issaquah, Kent, Kirkland, Lynnwood, Newcastle,
+                    Maple Valley, Mercer Island, Renton, Redmond, Seattle, Snohomish,
                     Tacoma, Woodinville
                   </center>
                 </div>
@@ -184,6 +184,7 @@ export default () => (
               <Hidden only={['xl', 'lg', 'md']}>
                 <br />
               </Hidden>{' '}
+              <FontAwesomeIcon icon={['fas', 'envelope']} />{' '}
               {data.site.siteMetadata.contact.email}
             </span>
           </div>

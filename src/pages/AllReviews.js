@@ -26,7 +26,7 @@ class AllReviews extends React.Component {
                     )
                   }) 
                 }
-                <p>Read more reviews on <a href="https://www.theknot.com/marketplace/emerald-city-photo-booth-llc-washington-state-wa-366747#navReviews" target="_blank">The Knot</a>, <a href="https://www.weddingwire.com/biz/emerald-city-photo-booth-seattle/963bf402922db20c.html" target="_blank">WeddingWire</a> and <a href="https://www.yelp.com/biz/emerald-city-photo-booth-seattle" target="_blank">Yelp</a>.</p>
+                <p>Read more reviews on <a href="https://www.theknot.com/marketplace/emerald-city-photo-booth-llc-washington-state-wa-366747#navReviews" target="_blank" rel="noopener noreferrer">The Knot</a>, <a href="https://www.weddingwire.com/biz/emerald-city-photo-booth-seattle/963bf402922db20c.html" target="_blank" rel="noopener noreferrer">WeddingWire</a> and <a href="https://www.yelp.com/biz/emerald-city-photo-booth-seattle" target="_blank" rel="noopener noreferrer">Yelp</a>.</p>
               </div>
               </article>
             </main>

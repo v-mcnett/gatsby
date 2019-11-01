@@ -12,8 +12,7 @@ export default () => (
                 <header className="major">
                   <h1>Thank You</h1>
                 </header>
-
-                <p>Thank you for contacting us!</p>
+                <p>Thank you for contacting us! We typically respond within 1-2 business days. If you don't hear from us, please check your spam folder. </p>
               </div>
             </section>
           </main>

@@ -50,7 +50,7 @@ export default class ReviewsSlider extends Component {
         >
           <div className="site-boundary">
             <h2 className="widget-title content-widget-title">
-              CUSTOMERS SAY IT BEST
+              CUSTOMERS SAY IT BEST <FontAwesomeIcon icon={['fas', 'comment']} />
             </h2>
             <Slider {...settings}>
               {this.props.posts.map((item, i) => {
