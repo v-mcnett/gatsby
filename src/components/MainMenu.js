@@ -50,19 +50,19 @@ class Header extends React.Component {
                   id="menu-item-105"
                  className={this.props.title==='Pricing' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-105 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-105'}
                  >
-                  <Link to="/Pricing">Pricing</Link>
+                  <Link to="/pricing">Pricing</Link>
                 </li>
                 <li
                   id="menu-item-51"
                   className={this.props.title==='Booths' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-51 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-51'}
                 >
-                  <Link to="/Booths">Booths</Link>
+                  <Link to="/booths">Booths</Link>
                 </li>
                 <li
                   id="menu-item-312"
                   className={this.props.title==='Customize' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-312 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-312'}
                 >
-                  <Link to="/Customize">Customize</Link>
+                  <Link to="/customize">Customize</Link>
                 </li>
                 <li
                   id="menu-item-168"
@@ -74,13 +74,13 @@ class Header extends React.Component {
                   id="menu-item-729"
                   className={this.props.title==='Contact Us' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-729 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-729'}
                 >
-                  <Link to="/ContactUs">Contact Us</Link>
+                  <Link to="/contact-us">Contact Us</Link>
                 </li>
                 <li
                   id="menu-item-729"
                   className={this.props.title==='About Us' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-729 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-729'}
                 >
-                  <Link to="/AboutUs">About Us</Link>
+                  <Link to="/about-us">About Us</Link>
                 </li>
               </ul>
             </div>{' '}

@@ -7,7 +7,7 @@ import withRoot from '../utils/withRoot'
 class AllBackdrops extends React.Component {
   
   render() {
-    console.log(this.props);
+
     return (
       <Page title="backdrops">
         <div id="content" className="site-content ecpb-site-boundary">
@@ -15,7 +15,7 @@ class AllBackdrops extends React.Component {
 		          <main id="main" className="site-main">
                 <article id="post-584" className="post-584 page type-page status-publish has-post-thumbnail hentry">
 	              <div className="entry-content"></div>
-              <header className="entry-header"><h1 className="entry-title">Our Backdrops</h1></header>
+              <header className="entry-header"><h1 className="entry-title">Backdrops</h1></header>
               <div className="entry-content">
                 <p>Emerald City Photo Booth has backdrops for every occasion. Choose from one of our backdrops or provide your own!</p>
                 <div className="allBackdrops">
@@ -48,7 +48,7 @@ export const reviewQuery = graphql`
     allFile(
       filter: {
         extension: {regex: "/(jpg)|(jpeg)|(png)/"}, 
-        dir: {regex: "../src/pages/backdrops/"}},
+        dir: {regex: "../src/pages/backdrop-images/"}},
       sort: {fields: [name], order: ASC}
     ) {
       edges {

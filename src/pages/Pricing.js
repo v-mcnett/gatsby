@@ -6,10 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Pricing extends React.Component {
   render() {
-    let styles = {
-      paddingLeft: '10px', 
-      paddingRight: '10px'
-    };
 
     return (
       <Page title="Pricing">
@@ -30,213 +26,67 @@ class Pricing extends React.Component {
                     we will gladly work with you to find a package to suit you.
                     Packages include set-up and delivery!
                   </p>
-                  <table
-                    id="package_table"
-                    cellSpacing="0"
-                    cellPadding="0"
-                    border="0"
-                    style={styles}
-                  >
-                    <tbody>
-                      <tr>
-                        <th>&nbsp;</th>
-                        <th style={styles}>Silver {"  "}</th>
-                        <th style={styles}>Gold {"  "}</th>
-                        <th style={styles}>Platinum {"  "}</th>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Unlimited Pictures for 4 Hours
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                          
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          The Prop Box
-                          <br />
-                          Includes goofy hats, silly sunglasses, fun boas and
-                          more!
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">Set-up and Removal Included</td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Professional and Entertaining Attendant
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Private Online Photo Gallery
-                        </td>
-                        <td  style={styles}>
-                          <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                          <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Personalized Photo Strips
-                          <br />
-                          Couple’s names and wedding date
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Double Photo Strips in Black &amp; White or Color
-                        </td>
-                        <td valign="top" style={styles}>
-                          <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td valign="top" style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td valign="top" style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Customized Photo Booth Music
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} /> 
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">USB with All Photos</td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">Customized Guest Book</td>
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          2nd Attendant
-                          <br />
-                          To help guests with your scrapbook
-                        </td>
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">Extra Set of Double Strips</td>
-                        <td />
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Guest Option to Leave 30 Seconds of Video
-                        </td>
-                        <td />
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          Guest Option to Print Their Favorite Picture in 4×6
-                        </td>
-                        <td />
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="description">
-                          USB Drive of all Photos and Video
-                        </td>
-                        <td />
-                        <td />
-                        <td  style={styles}>
-                        <FontAwesomeIcon icon={['fas', 'check']} />
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table><br/><br/>
-                  <p>
+                  <div className="pricingv2__wrapper">
+                    <div className="pricingv2__box silver"><div className="title"><h3 style={{color:"#aaa9ad"}}>SILVER <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                    <div className="pricingv2__bullet">The Prop Box</div>
+                    <div className="pricingv2__bullet">Set-up and Removal Included</div>
+                    <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
+                    <div className="pricingv2__bullet">Private Online Photo Gallery</div>
+                    <div className="pricingv2__bullet">Personalized Photo Strips</div>
+                    <div className="pricingv2__bullet">Double Photo Strips in Black & White or Color</div>
+                    <div className="pricingv2__bullet">Customized Photo Booth Music</div>
+                    <div className="pricingv2__bullet">USB with All Photos</div>
+                  </div>
+                  
+                  <div className="pricingv2__box gold"><div className="title"><h3  style={{color:"#d4af37"}}>GOLD <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                    <div className="pricingv2__bullet">The Prop Box</div>
+                    <div className="pricingv2__bullet">Set-up and Removal Included</div>
+                    <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
+                    <div className="pricingv2__bullet">Private Online Photo Gallery</div>
+                    <div className="pricingv2__bullet">Personalized Photo Strips</div>
+                    <div className="pricingv2__bullet">Double Photo Strips in Black & White or Color</div>
+                    <div className="pricingv2__bullet">Customized Photo Booth Music</div>
+                    <div className="pricingv2__bullet">USB with All Photos</div>
+                    <div className="pricingv2__bullet">Customized Guest Book</div>
+                    <div className="pricingv2__bullet">2nd Attendant</div>
+
+                  </div>
+                  <div className="pricingv2__box platinum"><div className="title"><h3 style={{color:"#e5e4e2"}}>PLATINUM <FontAwesomeIcon  icon={['fas', 'star']} /></h3></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                    <div className="pricingv2__bullet">The Prop Box</div>
+                    <div className="pricingv2__bullet">Set-up and Removal Included</div>
+                    <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
+                    <div className="pricingv2__bullet">Private Online Photo Gallery</div>
+                    <div className="pricingv2__bullet">Personalized Photo Strips</div>
+                    <div className="pricingv2__bullet">Double Photo Strips in Black & White or Color</div>
+                    <div className="pricingv2__bullet">Customized Photo Booth Music</div>
+                    <div className="pricingv2__bullet">USB with All Photos</div>
+                    <div className="pricingv2__bullet">Customized Guest Book</div>
+                    <div className="pricingv2__bullet">2nd Attendant</div>
+                    <div className="pricingv2__bullet">Extra Set of Double Strips</div>
+                    <div className="pricingv2__bullet">Guest Option to Leave 30 Seconds of Video</div>
+                    <div className="pricingv2__bullet">Guest Option to Print Their Favorite Picture in 4x6</div>
+                    <div className="pricingv2__bullet">USB Drive of all Photos and Video</div>
+
+                  </div>
+
+                  <div className="pricingv2__box">
+                    <div className="pricingv2__bookNow"><Link to="/booking-form">Book Now ></Link></div>
+                  </div>
+
+                  <div className="pricingv2__box">
+                    <div className="pricingv2__bookNow"><Link to="/booking-form">Book Now ></Link></div>
+                  </div>
+
+                  <div className="pricingv2__box">
+                    <div className="pricingv2__bookNow"><Link to="/booking-form">Book Now ></Link></div>
+                  </div>
+
+                  </div>
+
+                  <p style={{textAlign: "center", fontStyle: "italic", marginTop: "10px"}}>
                     Call us for pricing at{' '}
                     <a href="tel:+13603670329">360-367-0329</a>.
                   </p>
@@ -284,7 +134,7 @@ class Pricing extends React.Component {
                     <strong>
                       Reserve your date, non refundable deposit of $295, applies
                       to purchase.{' '}
-                      <Link to="/BookingForm">
+                      <Link to="/booking-form">
                         Book yours now!
                       </Link>
                     </strong>

@@ -83,7 +83,7 @@ export default () => (
                       <a href="tel:+13603670329"><FontAwesomeIcon icon={['fas', 'phone']} />{' '}360.367.0329</a>
                     </center>
                     <center>
-                    <Link to="/ContactUs">
+                    <Link to="/contact-us">
                     <FontAwesomeIcon icon={['fas', 'envelope']} />{' '}email
                       </Link>
                     </center>
@@ -155,15 +155,15 @@ export default () => (
               >
                 <div className="textwidget custom-html-widget">
                   <center>
-                  <Link to="/AboutUs">
+                  <Link to="/about-us">
                     About Us
                   </Link>{' '}
                     |{' '}
-                    <Link to="/CancellationPolicy">
+                    <Link to="/cancellation-policy">
                       Cancellation Policy
                     </Link>{' '}
                     |{' '}
-                    <Link to="/PrivacyPolicy">
+                    <Link to="/privacy-policy">
                       Privacy Policy
                     </Link>
                     <br />
