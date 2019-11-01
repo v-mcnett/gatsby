@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import TextLoop from "react-text-loop"
 
 export default () => (
   <StaticQuery
@@ -49,7 +50,12 @@ export default () => (
         id="media_gallery-5"
         className="content-widget widget_media_gallery"
       >
-        <h2 className="widget-title content-widget-title">WE BRING THE FUN</h2>
+        <h2 className="widget-title content-widget-title">WE BRING THE {" "}
+          <TextLoop>
+            <span>FUN</span>
+            <span>MEMORIES</span>
+            <span>LAUGHTER</span>
+            </TextLoop></h2>
         <div
           id="gallery-1"
           className="gallery galleryid-6 gallery-columns-4 gallery-size-large"
