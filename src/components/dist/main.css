@@ -15,7 +15,7 @@ button{overflow:visible;}
 button{text-transform:none;}
 button{-webkit-appearance:button;cursor:pointer;}
 button::-moz-focus-inner{border:0;padding:0;}
-body,button{font-family:"Lato", sans-serif;font-size:18px;font-size:1.125rem;line-height:1.8;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;color:#6d686c;}
+body,button{font-family:"Raleway", sans-serif;font-size:18px;font-size:1.125rem;line-height:1.8;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;color:#6d686c;}
 .site-title,h2{font-family:"Lato", sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;}
 .site-branding .site-description{font-family:"Mrs Saint Delafield", cursive;}
 h2{clear:both;margin:0;font-weight:bold;line-height:1.375;letter-spacing:0.07em;-ms-word-wrap:break-word;word-wrap:break-word;}
@@ -505,6 +505,10 @@ img#wpstats{display:none;}
 }
 #media_gallery-5{
     margin-top:27px;
+}
+#media_gallery-5 img {
+	border-radius: 100%; 
+	width:80%;
 }
 .alignright {
     display: inline;
@@ -2023,9 +2027,22 @@ div.wpforms-gutenberg-form-selector .wpforms-form button[type=submit]:disabled {
 	margin: 0px;
 	
   }
+  .pricingv2__box .title{position: relative;}
+  .pricingv2__box .title:after{
+	content:'';
+    position: absolute;
+    left: 0;
+	right: 0;
+    margin: 0 auto;
+    width: 0;
+	height: 0;
+    border-top: 15px solid #609374;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
 
   .pricingv2__bullet {
-	border-top: #959595 1px solid;
+	/*border-top: #959595 1px solid; */
 	padding: 20px;
   }
   .pricingv2__bookNow  {
@@ -2046,3 +2063,19 @@ div.wpforms-gutenberg-form-selector .wpforms-form button[type=submit]:disabled {
   .pricingv2__bookNow a:hover {
 	  opacity: .8;
   }
+
+
+  .allBackdrops {
+	column-gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+  	
+  }
+
+  .backdrop {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 200px;
+  }
+  
