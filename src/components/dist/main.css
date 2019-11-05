@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 /*! CSS Used from: Embedded */
 img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}
 
@@ -504,7 +506,7 @@ img#wpstats{display:none;}
     padding-right: 2.5rem;
 }
 #media_gallery-5{
-    margin-top:27px;
+	margin-top:27px;
 }
 #media_gallery-5 img {
 	border-radius: 100%; 
@@ -2082,4 +2084,61 @@ div.wpforms-gutenberg-form-selector .wpforms-form button[type=submit]:disabled {
 	margin-right: 20px;
 	width: 200px;
   }
+
+  .customizations {
+	column-gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+
+	justify-content: center;
+  }
+
+  .customization {
+	border: 1px solid #eaefe8;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding: 0px 20px 20px 20px;
+	width: 300px;
+  }
+  .customization h2 {
+	  margin: 5px 0 0 0; 
+	  color: #609374;
+  }
+
+  .customization__title {
+	background: #eaefe8; 
+	border-radius: 50%;
+	color: #609374;
+	font-size: 35px;
+	height: 75px;
+	margin: 15px 0 0 0;
+	padding-top: 5px;
+	text-align:center;
+	width: 75px;
+  }
+
+  .booths {
+	display: flex;
+	 
+  }
+  .booths  h2 {
+	margin-bottom: 0px;
+}
+
+.aboutus__columns, .booths {
+	display: flex;
+	flex-direction: row;
+  	flex-wrap: wrap;
+  	width: 100%;
+}
+
+.aboutus__column, .booth__details {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+ 
   

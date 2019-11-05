@@ -19,15 +19,13 @@ class FAQs extends React.Component {
                   <div className="entry-content">
                     <p>
                       We are a family owned company founded in 2010. We travel throughout
-                      Washington including: Bellingham, Seattle, Spokane,
-                      Vancouver, Wenatchee, Yakima and everywhere in between
+                      Washington including: Bellevue, Bonney Lake, Bothell, Everett, Issaquah, Kent, Kirkland, Lynnwood, Newcastle, Maple Valley, Mercer Island, Renton, Redmond, Seattle, Snohomish, Tacoma, Woodinville and everywhere in between
                       bringing you fun and exciting photo booths. Some of our
                       favorite places include:
                     </p>
 
-                    <div className="wp-block-text-columns alignundefined columns-2">
-                      <div className="wp-block-column">
-                        <p>
+                    <div className="aboutus__columns">
+                      <div className="aboutus__column">
                           <a
                             href="https://www.marysvillewa.gov/762/Opera-House"
                             target="_blank"
@@ -51,11 +49,8 @@ class FAQs extends React.Component {
                           >
                             Lake Wilderness
                           </a>
-                          <br />
-                        </p>
                       </div>
-                      <div className="wp-block-column">
-                        <p>
+                      <div className="aboutus__column">
                           <a
                             href="https://www.cedarbrooklodge.com/"
                             target="_blank"
@@ -75,7 +70,6 @@ class FAQs extends React.Component {
                           <a href="http://www.mtsprings.com/" target="_blank" rel="noopener noreferrer">
                             Mountain Springs
                           </a>
-                        </p>
                       </div>
                     </div>
 

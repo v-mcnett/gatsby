@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 import './dist/main.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHeart, faCamera, faHatWizard, faStar, faEnvelope, faPhone, faCalendar, faComment } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faCamera, faMask, faStar, faEnvelope, faPhone, faCalendar, faComment, faBookOpen, faCameraRetro, faImage, faChalkboardTeacher, faIdCardAlt } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -20,11 +20,12 @@ library.add(faPinterest)
 library.add(faTwitter)
 library.add(faStar)
 library.add(faCamera)
-library.add(faHatWizard)
+library.add(faMask)
 library.add(faEnvelope)
 library.add(faPhone)
 library.add(faCalendar)
 library.add(faComment)
+library.add(faBookOpen, faCameraRetro, faImage, faChalkboardTeacher, faIdCardAlt)
 
 
 const styles = theme => ({
