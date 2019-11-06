@@ -1,7 +1,6 @@
 import React from "react";
 import Page from "../components/Page";
 import { Link } from 'gatsby'
-import Typography from "@material-ui/core/Typography";
 import withRoot from "../utils/withRoot";
 
 class NotFoundPage extends React.Component {

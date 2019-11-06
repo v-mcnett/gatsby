@@ -79,12 +79,11 @@ export default class Contact extends React.Component {
                             id="wpforms-292-field_0"
                             className="wpforms-field-name-first wpforms-field-required wpforms-field-medium"
                             name="wpforms[fields][0][first]"
-                            required=""
+                            required="true"
                             aria-required="true"
                             onChange={this.handleChange}
                             size="40"
                             maxLength="128"
-                            required
                           />
                           
                     </div>
@@ -105,12 +104,11 @@ export default class Contact extends React.Component {
                         id="wpforms-292-field_1"
                         className="wpforms-field-medium wpforms-field-required"
                         name="wpforms[fields][1]"
-                        required=""
+                        required="true"
                         aria-required="true"
                         onChange={this.handleChange}
                         size="40"
                         maxLength="128"
-                        required
                       />
                     </div>
 
