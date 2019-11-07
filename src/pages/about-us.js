@@ -1,10 +1,26 @@
 import React from 'react'
 import Page from '../components/Page'
-import withRoot from '../utils/withRoot'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import BackgroundImage from 'gatsby-background-image'
 
-class FAQs extends React.Component {
-  render() {
-    return (
+export default () => (
+<StaticQuery
+  query={graphql`
+    query {
+      AboutUs: file(relativePath: { eq: "aboutus.jpg" }) {
+        childImageSharp {
+          fluid{
+           ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+     
+    }
+    
+  `}
+
+  render={data => (
       <Page title="About Us">
         <div id="content" className="site-content ecpb-site-boundary">
           <div className="site-boundary">
@@ -16,8 +32,11 @@ class FAQs extends React.Component {
                 >
                   <h1 className="entry-title">About Us</h1>{' '}
 
-                  <div className="entry-content">
-                    <p>
+                    <div className="aboutus__img">
+                      <Img fluid={data.AboutUs.childImageSharp.fluid} />
+                    </div>
+                    
+                    <div className="intro"><p>
                       We are a family owned company founded in 2010. We travel throughout
                       Washington including: Bellevue, Bonney Lake, Bothell, Everett, Issaquah, Kent, Kirkland, Lynnwood, Newcastle, Maple Valley, Mercer Island, Renton, Redmond, Seattle, Snohomish, Tacoma, Woodinville and everywhere in between
                       bringing you fun and exciting photo booths. Some of our
@@ -72,22 +91,13 @@ class FAQs extends React.Component {
                           </a>
                       </div>
                     </div>
-
-                    <div className="wp-block-image">
-                      <figure className="alignright">
-                        <img
-                          src="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/IMG_2600.jpg?zoom=2&amp;w=660"
-                          alt=""
-                          className="wp-image-176"
-                          width="180"
-                          height="270"
-                          src-orig="https://i0.wp.com/emeraldcityphotobooth.com/photos/wp-content/uploads/2018/08/IMG_2600.jpg?w=660"
-                          scale="2"
-                        />
-                      </figure>
                     </div>
 
-                    <hr className="wp-block-separator" />
+
+                  
+
+                  <div className="entry-content">
+                    
 
                     <h4>Photo booths are perfect for any event, such as:</h4>
 
@@ -127,8 +137,7 @@ class FAQs extends React.Component {
             </div>
           </div>
         </div>
-      </Page>
-    )
-  }
-}
-export default withRoot(FAQs)
+        </Page>
+   )}
+   />
+ )

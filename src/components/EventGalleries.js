@@ -11,7 +11,7 @@ export default () => (
           relativePath: { eq: "Smith-429.jpg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
@@ -20,7 +20,7 @@ export default () => (
           relativePath: { eq: "20131219210957_P0-e1546152595825.jpg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 205) {
+            fluid{
               ...GatsbyImageSharpFluid
             }
           }
@@ -29,7 +29,7 @@ export default () => (
           relativePath: { eq: "PhiandJasonWedding-150.jpg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
@@ -38,7 +38,7 @@ export default () => (
           relativePath: { eq: "Cook-Wedding-Reception-0079.jpg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }

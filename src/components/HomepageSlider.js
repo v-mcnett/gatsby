@@ -152,28 +152,28 @@ export default props => (
         }
         PBEvents: file(relativePath: { eq: "IMG_4156.jpg" }) {
           childImageSharp {
-            fixed(height: 280, width: 560) {
+            fixed {
               ...GatsbyImageSharpFixed
             }
           }
         }
         SliderOne: file(relativePath: { eq: "I-Do-Sodo-2018_0135-1.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         SliderTwo: file(relativePath: { eq: "I-Do-Sodo-2018_0203.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         SliderThree: file(relativePath: { eq: "IMG_2615.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }

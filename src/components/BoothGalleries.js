@@ -8,28 +8,28 @@ export default () => (
       query {
         PBClassicBlack: file(relativePath: { eq: "photobooth-classic-black.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         PBStandupBlack: file(relativePath: { eq: "photobooth-classic-black2.png" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         PBClassicWhite: file(relativePath: { eq: "photobooth-classic-white.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         PBStandupWhite: file(relativePath: { eq: "photobooth-classic-white2.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }

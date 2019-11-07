@@ -57,7 +57,7 @@ export const reviewQuery = graphql`
           name
           
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }

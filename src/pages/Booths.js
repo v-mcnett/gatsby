@@ -9,14 +9,14 @@ export default () => (
       query {
         PBClassicWhite: file(relativePath: { eq: "photobooth-classic-white.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         PBStandupWhite: file(relativePath: { eq: "photobooth-classic-white2.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:205) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
@@ -34,7 +34,9 @@ export default () => (
                   id="post-48"
                   className="post-48 page type-page status-publish has-post-thumbnail hentry"
                 >
-                  <h1 className="entry-title">Booths</h1>{' '}
+                  <h1 className="entry-title">Booths</h1>
+
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/1xunGvpVlM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="About Emerald City Photo Booth"></iframe>
 
                   <div className="entry-content">                     
                       <div className="booth__information">
@@ -56,7 +58,9 @@ export default () => (
                         <div className="booths">
                           <div className="booth__details">
                             <h2>Classic Photo Booth</h2>
+                            <div className="booth__details__img">
                             <Img fluid={data.PBClassicWhite.childImageSharp.fluid} />
+                            </div>
                             <p>The&nbsp;<strong>classic photo booth</strong>&nbsp;is
                             the quintessential design; groups of four or less enter
                             the booth, sit down, close the curtain and follow the
@@ -73,7 +77,9 @@ export default () => (
 
                           <div className="booth__details">
                             <h2>Party Photo Booth</h2>
-                            <Img fluid={data.PBStandupWhite.childImageSharp.fluid} />
+                            <div className="booth__details__img">
+                              <Img fluid={data.PBStandupWhite.childImageSharp.fluid} />
+                            </div>
                             <p>The&nbsp;<strong>party photo booth</strong>&nbsp;is a
                             modern twist on the classic photo booth. It is deal for
                             large groups, the booth is set up using an existing wall
