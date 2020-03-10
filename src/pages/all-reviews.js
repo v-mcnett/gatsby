@@ -11,26 +11,22 @@ class AllReviews extends React.Component {
         <div id="content" className="site-content ecpb-site-boundary">
             <div id="primary" className="content-area">
 		          <main id="main" className="site-main">
-                <article id="post-584" className="post-584 page type-page status-publish has-post-thumbnail hentry">
-	              <div className="entry-content"></div>
-              <h1 className="entry-title">Read Our Reviews</h1>
-              <div className="entry-content">
-                {
-                  this.props.data.Reviews.edges.map((item, i) => {
-                    //Check for missing images
-                    return (
-                      <div key={i.toString()}>
-                      <p dangerouslySetInnerHTML={{ __html: item.node.html }}></p>
-                      <p><strong>- {item.node.frontmatter.title}</strong></p>
-                      </div>
-                    )
-                  }) 
-                }
-                <p>Read more reviews on <a href="https://www.theknot.com/marketplace/emerald-city-photo-booth-llc-washington-state-wa-366747#navReviews" target="_blank" rel="noopener noreferrer">The Knot</a>, <a href="https://www.weddingwire.com/biz/emerald-city-photo-booth-seattle/963bf402922db20c.html" target="_blank" rel="noopener noreferrer">WeddingWire</a> and <a href="https://www.yelp.com/biz/emerald-city-photo-booth-seattle" target="_blank" rel="noopener noreferrer">Yelp</a>.</p>
+                <div className="entry-content">
+                <h1>Read Our Reviews</h1>
+                  {
+                    this.props.data.Reviews.edges.map((item, i) => {
+                      //Check for missing images
+                      return (
+                        <div key={i.toString()}>
+                        <p dangerouslySetInnerHTML={{ __html: item.node.html }}></p>
+                        <p><strong>- {item.node.frontmatter.title}</strong></p>
+                        </div>
+                      )
+                    }) 
+                  }
+                  <p>Read more reviews on <a href="https://www.theknot.com/marketplace/emerald-city-photo-booth-llc-washington-state-wa-366747#navReviews" target="_blank" rel="noopener noreferrer">The Knot</a>, <a href="https://www.weddingwire.com/biz/emerald-city-photo-booth-seattle/963bf402922db20c.html" target="_blank" rel="noopener noreferrer">WeddingWire</a> and <a href="https://www.yelp.com/biz/emerald-city-photo-booth-seattle" target="_blank" rel="noopener noreferrer">Yelp</a>.</p>
               </div>
-              </article>
             </main>
-	          
           </div>
 		    </div>
       </Page>

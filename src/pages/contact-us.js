@@ -37,15 +37,11 @@ export default class Contact extends React.Component {
     return (
       <Page title="Contact Us">
         <div id="content" className="site-content ecpb-site-boundary">
-          <div className="site-boundary">
-            <div id="primary" className="content-area">
-              <main id="main" className="site-main">
-              <article
-                id="post-10"
-                className="post-10 page type-page status-publish has-post-thumbnail hentry"
-              >
+          <div id="primary" className="content-area">
+		          <main id="main" className="site-main">
+
               <h1>Contact Us</h1>
-              <div class="wp-block-column">
+              <div id="contact" class="wp-block-column">
                   <p>We love hearing from our customers!</p>
                   <h3>By Phone</h3>
                   <p>
@@ -113,9 +109,10 @@ export default class Contact extends React.Component {
                         name="message"
                         onChange={this.handleChange}
                         cols="40"
-                        rows="10"
+                        rows="40"
                         placeholder="Message"
                         required
+                        style={{height: '120px' }}
                       />
                     </label>
                   </p>
@@ -124,11 +121,9 @@ export default class Contact extends React.Component {
                   </p>
                 </form>
               </div>
-              </article>
               </main>
             </div>
           </div>
-        </div>
       </Page>
     )
   }

@@ -10,11 +10,10 @@ class NotFoundPage extends React.Component {
         <div id="content" className="site-content ecpb-site-boundary">
             <div id="primary" className="content-area">
               <main id="main" className="site-main">
-        
-              <h4>
-                Sorry, we can't find the page you were looking for.
-              </h4>
-              <p>Return to the <Link to="/">homepage</Link>.</p>
+                <h4>
+                  Sorry, we can't find the page you were looking for.
+                </h4>
+                <p>Return to the <Link to="/">homepage</Link>.</p>
               </main>
           </div>
         </div>

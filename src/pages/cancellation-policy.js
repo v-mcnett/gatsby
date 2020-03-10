@@ -6,15 +6,11 @@ class CancellationPolicy extends React.Component {
   render() {
     return (
       <Page title="Cancellation Policy">
-        <div id="content" className="site-content  ecpb-site-boundary">
-          <div className="site-boundary">
-            <div id="primary" className="content-area">
-              <main id="main" className="site-main">
-                <article
-                  id="post-48"
-                  className="post-48 page type-page status-publish has-post-thumbnail hentry"
-                >
-                  <h1 className="entry-title">Cancellation Policy</h1>
+      <div id="content" className="site-content ecpb-site-boundary">
+        <div id="primary" className="content-area">
+          <main id="main" className="site-main">
+
+                  <h1>Cancellation Policy</h1>
 
                   <div className="entry-content">
                     <p>
@@ -58,11 +54,9 @@ class CancellationPolicy extends React.Component {
                       Emerald City Photo Booth
                     </p>
                   </div>
-                </article>
               </main>
             </div>
           </div>
-        </div>
       </Page>
     )
   }

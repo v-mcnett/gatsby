@@ -55,11 +55,7 @@ export default () => (
                     id="gallery-3"
                     className="gallery galleryid-6 gallery-columns-3 gallery-size-thumbnail"
                   >
-                    <figure className="gallery-item">
-                      <div className="gallery-icon landscape">
-                      <Img fixed={data.WeddingWireImage.childImageSharp.fixed} />
-                      </div>
-                    </figure>
+                    
                     <figure className="gallery-item">
                       <div className="gallery-icon landscape">
                       <Img fixed={data.TheKnotHOFImage.childImageSharp.fixed} />
@@ -68,6 +64,11 @@ export default () => (
                     <figure className="gallery-item">
                       <div className="gallery-icon landscape">
                       <Img fixed={data.TheKnotImage.childImageSharp.fixed} />
+                      </div>
+                    </figure>
+                    <figure className="gallery-item">
+                      <div className="gallery-icon landscape">
+                      <Img fixed={data.WeddingWireImage.childImageSharp.fixed} />
                       </div>
                     </figure>
                   </div>
@@ -83,8 +84,9 @@ export default () => (
                       <a href="tel:+13603670329"><FontAwesomeIcon icon={['fas', 'phone']} />{' '}360.367.0329</a>
                     </center>
                     <center>
-                    <Link to="/contact-us">
-                    <FontAwesomeIcon icon={['fas', 'envelope']} />{' '}email
+                      <Link to="/contact-us">
+                        <FontAwesomeIcon icon={['fas', 'envelope']} />{' '}email<br/>
+                        <span className="responsive-font">{data.site.siteMetadata.contact.email}</span>
                       </Link>
                     </center>
                     <p />

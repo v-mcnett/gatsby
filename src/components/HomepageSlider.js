@@ -124,7 +124,7 @@ class HomepageSlider extends Component {
                           black &amp; white
                         </li>
                       </ul>
-                      <p><Link to="/pricing">View our packages.</Link></p>
+                      <p><Link to="/package-pricing">View our packages.</Link></p>
                     </div>
                   </div>
                 </div>

@@ -9,7 +9,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query HeaderImage {
-        file(relativePath: { eq: "ECPBLogo.jpg" }) {
+        file(relativePath: { eq: "emerald-city-photo-booth.jpg" }) {
           childImageSharp {
             fixed(width: 400, height: 164) {
               ...GatsbyImageSharpFixed
@@ -120,13 +120,13 @@ export default () => (
           <div className="site-branding">
             <div className="site-boundary">
               <div className="site-logo">
-              <Link to="/">
+                <Link to="/">
                   <Img fixed={data.file.childImageSharp.fixed} />
                 </Link>
               </div>
 
               <p className="site-title">
-                <a href="http://emeraldcityphotobooth.com/photos/" rel="home">
+                <a href="http://emeraldcityphotobooth.com/" rel="home">
                   Emerald City Photo Booth
                 </a>
               </p>

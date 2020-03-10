@@ -13,9 +13,8 @@ class AllBackdrops extends React.Component {
         <div id="content" className="site-content ecpb-site-boundary">
             <div id="primary" className="content-area">
 		          <main id="main" className="site-main">
-                <article id="post-584" className="post-584 page type-page status-publish has-post-thumbnail hentry">
 	              <div className="entry-content"></div>
-              <h1 className="entry-title">Backdrops</h1>
+              <h1>Backdrops</h1>
               <div className="entry-content">
                 <p>Emerald City Photo Booth has backdrops for every occasion. Choose from one of our backdrops or provide your own!</p>
                 <div className="allBackdrops">
@@ -33,7 +32,6 @@ class AllBackdrops extends React.Component {
                 }
                 </div>
               </div>
-              </article>
             </main>
 	          
           </div>

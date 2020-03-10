@@ -17,7 +17,7 @@ export default () => (
           }
         }
         EventsCorporate: file(
-          relativePath: { eq: "20131219210957_P0-e1546152595825.jpg" }
+          relativePath: { eq: "20170915200822_P2.jpg" }
         ) {
           childImageSharp {
             fluid{
@@ -86,6 +86,18 @@ export default () => (
 
           <figure className="gallery-item">
             <div className="gallery-icon landscape">
+              <Img fluid={data.EventsBirthdays.childImageSharp.fluid} />
+            </div>
+            <figcaption
+              className="wp-caption-text gallery-caption"
+              id="gallery-1-537"
+            >
+              Birthdays, Family Reunions
+            </figcaption>
+          </figure>
+
+          <figure className="gallery-item">
+            <div className="gallery-icon landscape">
               <Img fluid={data.EventsMitzvahs.childImageSharp.fluid} />
             </div>
             <figcaption
@@ -96,17 +108,7 @@ export default () => (
             </figcaption>
           </figure>
 
-          <figure className="gallery-item">
-            <div className="gallery-icon landscape">
-              <Img fluid={data.EventsBirthdays.childImageSharp.fluid} />
-            </div>
-            <figcaption
-              className="wp-caption-text gallery-caption"
-              id="gallery-1-537"
-            >
-              Birthdays, Family Reunions
-            </figcaption>
-          </figure>
+          
         </div>
       </section>
     )}

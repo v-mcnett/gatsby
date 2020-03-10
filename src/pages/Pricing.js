@@ -12,11 +12,8 @@ class Pricing extends React.Component {
         <div id="content" className="site-content ecpb-site-boundary">
           <div id="primary" className="content-area">
             <main id="main" className="site-main">
-              <article
-                id="post-10"
-                className="post-10 page type-page status-publish has-post-thumbnail hentry"
-              >
-                <h1 className="entry-title">Pricing</h1>
+            
+                <h1>Pricing</h1>
 
                 <div class="entry-content">
                   <p>
@@ -25,8 +22,8 @@ class Pricing extends React.Component {
                     Packages include set-up and delivery!
                   </p>
                   <div className="pricingv2__wrapper">
-                    <div className="pricingv2__box silver"><div className="title"><h3 style={{color:"#aaa9ad"}}>SILVER <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
-                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                    <div className="pricingv2__box silver"><div className="title"><h3 style={{color:"#aaa9ad"}}>SILVER <FontAwesomeIcon icon={['fas', 'star']} /></h3><div>$1095</div></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 3 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>
                     <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
@@ -37,8 +34,8 @@ class Pricing extends React.Component {
                     <div className="pricingv2__bullet">USB with All Photos</div>
                   </div>
                   
-                  <div className="pricingv2__box gold"><div className="title"><h3  style={{color:"#d4af37"}}>GOLD <FontAwesomeIcon icon={['fas', 'star']} /></h3></div>
-                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                  <div className="pricingv2__box gold"><div className="title"><h3  style={{color:"#d4af37"}}>GOLD <FontAwesomeIcon icon={['fas', 'star']} /></h3><div>$1295</div></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 3 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>
                     <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
@@ -51,8 +48,8 @@ class Pricing extends React.Component {
                     <div className="pricingv2__bullet">2nd Attendant</div>
 
                   </div>
-                  <div className="pricingv2__box platinum"><div className="title"><h3 style={{color:"#e5e4e2"}}>PLATINUM <FontAwesomeIcon  icon={['fas', 'star']} /></h3></div>
-                    <div className="pricingv2__bullet">Unlimited Pictures for 4 Hours</div>
+                  <div className="pricingv2__box platinum"><div className="title"><h3 style={{color:"#e5e4e2"}}>PLATINUM <FontAwesomeIcon  icon={['fas', 'star']} /></h3><div>$895</div></div>
+                    <div className="pricingv2__bullet">Unlimited Pictures for 3 Hours</div>
                     <div className="pricingv2__bullet">The Prop Box</div>
                     <div className="pricingv2__bullet">Set-up and Removal Included</div>
                     <div className="pricingv2__bullet">Professional and Entertaining Attendant</div>
@@ -85,7 +82,7 @@ class Pricing extends React.Component {
                   </div>
 
                   <p style={{textAlign: "center", fontStyle: "italic", marginTop: "10px"}}>
-                    Call us for pricing at{' '}
+                    Call us to book at{' '}
                     <a href="tel:+13603670329">360-367-0329</a>.
                   </p>
                   <h2>Silver Deluxe Package</h2>
@@ -93,7 +90,7 @@ class Pricing extends React.Component {
                     The Silver Package is a great way to set your wedding apart
                     from every other wedding your guests will attend this year.
                     The photo booth will be available for{' '}
-                    <strong>unlimited use for 4 hours</strong>, including an
+                    <strong>unlimited use for 3 hours</strong>, including an
                     attendant to serve your guests and the{' '}
                     <strong>Prop Box</strong>. The Prop Box is sure to bring out
                     the wild side in you and your guests crazy hats, goofy
@@ -125,7 +122,7 @@ class Pricing extends React.Component {
                     all the video footage.
                   </p>
                   <p>
-                    Call us for pricing at{' '}
+                    Call us to book at{' '}
                     <a href="tel:+13603670329">360-367-0329</a>.
                   </p>
                   <p>
@@ -140,7 +137,6 @@ class Pricing extends React.Component {
 
                   <p />
                 </div>
-              </article>
             </main>
           </div>
         </div>

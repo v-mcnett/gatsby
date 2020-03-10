@@ -23,14 +23,10 @@ export default () => (
   render={data => (
       <Page title="About Us">
         <div id="content" className="site-content ecpb-site-boundary">
-          <div className="site-boundary">
-            <div id="primary" className="content-area">
-              <main id="main" className="site-main">
-                <article
-                  id="post-7"
-                  className="post-7 page type-page status-publish has-post-thumbnail hentry"
-                >
-                  <h1 className="entry-title">About Us</h1>{' '}
+          <div id="primary" className="content-area">
+		          <main id="main" className="site-main">
+       
+                  <h1>About Us</h1>
 
                     <div className="aboutus__img">
                       <Img fluid={data.AboutUs.childImageSharp.fluid} />
@@ -124,17 +120,14 @@ export default () => (
                       please see{' '}
                       <a href="http://www.photoboothmd.com" target="_blank" rel="noopener noreferrer">
                         http://www.photoboothmd.com
-                      </a>
-                      . Or if you are interested in owning a photo booth see{' '}
+                      </a>. Or if you are interested in owning a photo booth see{' '}
                       <a href="http://www.kingdomphotobooth.com" target="_blank" rel="noopener noreferrer">
                         http://www.kingdomphotobooth.com
-                      </a>
-                      .
+                      </a>.
                     </p>
                   </div>
-                </article>
+ 
               </main>
-            </div>
           </div>
         </div>
         </Page>

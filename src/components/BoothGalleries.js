@@ -6,28 +6,16 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        PBClassicBlack: file(relativePath: { eq: "photobooth-classic-black.jpg" }) {
+        PBClassicBlack: file(relativePath: { eq: "Rebecca_Ellison_3.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        PBStandupBlack: file(relativePath: { eq: "photobooth-classic-black2.png" }) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        PBClassicWhite: file(relativePath: { eq: "photobooth-classic-white.jpg" }) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        PBStandupWhite: file(relativePath: { eq: "photobooth-classic-white2.jpg" }) {
+
+
+        PBStandupWhite: file(relativePath: { eq: "150217_1192_HARROLD.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -44,52 +32,32 @@ export default () => (
         </h2>
         <div
           id="gallery-2"
-          className="gallery galleryid-6 gallery-columns-4 gallery-size-medium"
+          className="gallery galleryid-6 gallery-columns-2 gallery-size-medium"
         >
           <figure className="gallery-item">
-            <div className="gallery-icon portrait">
+            <div className="booth-gallery-portrait">
             <Img fluid={data.PBClassicBlack.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
               id="gallery-2-57"
             >
-              Classic sit down booth in black
+              Classic sit down booth in black or white
             </figcaption>
           </figure>
+          
           <figure className="gallery-item">
-            <div className="gallery-icon portrait">
-            <Img fluid={data.PBClassicWhite.childImageSharp.fluid} />
-            </div>
-            <figcaption
-              className="wp-caption-text gallery-caption"
-              id="gallery-2-56"
-            >
-              Classic sit down booth in white
-            </figcaption>
-          </figure>
-          <figure className="gallery-item">
-            <div className="gallery-icon portrait">
+            <div className="booth-gallery-portrait">
             <Img fluid={data.PBStandupWhite.childImageSharp.fluid} />
             </div>
             <figcaption
               className="wp-caption-text gallery-caption"
               id="gallery-2-55"
             >
-              Modern stand up booth in white
+              Modern stand up booth in black or white 
             </figcaption>
           </figure>
-          <figure className="gallery-item">
-            <div className="gallery-icon portrait">
-            <Img fluid={data.PBStandupBlack.childImageSharp.fluid} />
-            </div>
-            <figcaption
-              className="wp-caption-text gallery-caption"
-              id="gallery-2-52"
-            >
-              Modern stand up booth in black
-            </figcaption>
-          </figure>
+         
         </div>
       </section>
     )}

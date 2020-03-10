@@ -50,19 +50,19 @@ class Header extends React.Component {
                   id="menu-item-105"
                  className={this.props.title==='Pricing' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-105 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-105'}
                  >
-                  <Link to="/pricing">Pricing</Link>
+                  <Link to="/package-pricing">Pricing</Link>
                 </li>
                 <li
                   id="menu-item-51"
                   className={this.props.title==='Booths' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-51 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-51'}
                 >
-                  <Link to="/booths">Booths</Link>
+                  <Link to="/photo-booths">Booths</Link>
                 </li>
                 <li
                   id="menu-item-312"
                   className={this.props.title==='Customize' ? 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-312 current-menu-item current_page_item' : 'menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-312'}
                 >
-                  <Link to="/customize">Customize</Link>
+                  <Link to="/customize-experience">Customize</Link>
                 </li>
                 <li
                   id="menu-item-168"

@@ -8,11 +8,9 @@ export default () => (
         <div id="primary" className="content-area">
           <main id="main" className="site-main">
             <section id="one">
-              <div className="inner">
                 <h1>Thank You</h1>
 
                 <p>Thank you for contacting us! We typically respond within 1-2 business days. If you don't hear from us, please check your spam folder. </p>
-              </div>
             </section>
           </main>
         </div>

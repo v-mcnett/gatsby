@@ -9,13 +9,8 @@ class FAQs extends React.Component {
       <div id="content" className="site-content ecpb-site-boundary">
         <div id="primary" className="content-area">
           <main id="main" className="site-main">
-            <article
-              id="post-10"
-              className="post-10 page type-page status-publish has-post-thumbnail hentry"
-            >
-              <h1 className="entry-title">FAQs</h1>
+              <h1>FAQs</h1>
 
-              <div className="entry-content" />
               <div className="entry-content">
                 <h3>
                   What does it take to reserve a Photo Booth for my event and
@@ -116,7 +111,7 @@ class FAQs extends React.Component {
                   changes or approve the logo before your event.
                 </p>
               </div>
-            </article>
+
           </main>
         </div></div>
       </Page>
